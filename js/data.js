@@ -2,7 +2,7 @@ export const profile = {
   email: "pablodominguez0226@gmail.com",
   github: "https://github.com/pablodominguez0226-ai",
   linkedin: "https://www.linkedin.com/in/pablo-dominguez-460a811a1/",
-  cvUrl: "", // Ejemplo: "assets/cv/pablo-dominguez-cv.pdf"
+  cvUrl: "cv.pdf",
 };
 
 export const projects = [
