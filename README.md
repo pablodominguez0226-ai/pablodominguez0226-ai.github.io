@@ -102,20 +102,18 @@ Como las rutas son relativas, el sitio funciona también bajo
 
 ## Datos pendientes antes de publicar
 
-- Archivo PDF del CV.
 - URLs de repositorio y demo de los proyectos.
-- Capturas reales de FitConnection y FitTracker.
+- Capturas reales de proyectos en producción/demo.
 - Dataset, notebook, período, gráficos y conclusiones del análisis de Bitcoin.
-- Año de Data Analytics.
-- Año y duración de Power BI.
-- Institución, año y duración de Cloud Computing con Microsoft Azure.
-- Año y duración de Arquitectura e Ingeniería Cloud.
 - Archivos o URLs públicas de los certificados.
 - URL definitiva del sitio para completar `og:url` y, si se desea, una imagen Open Graph PNG.
 
 ## Decisiones de contenido
 
-- El título intermedio se presenta como **próximo a obtener**, no como finalizado.
-- Los proyectos se identifican como académicos, personales o pendientes.
-- No se incluyen años de experiencia, porcentajes de habilidades ni métricas no verificadas.
-- No se presenta el análisis de Bitcoin como experiencia laboral o recomendación financiera.
+- El título de **Analista Universitario en Sistemas de Información** (UTN FRM) figura como obtenido.
+- La **Ingeniería en Sistemas de Información** (UTN FRM) se presenta en estado **graduando**.
+- Se incluye la formación futura en **Tecnicatura Universitaria en Ciencia de Datos**.
+- Se detallan las 4 certificaciones oficiales (Ciencia de Datos con Python, Analista de Datos, Power BI, Cloud Computing con Microsoft Azure).
+- Los proyectos se identifican con su alcance auténtico (comercial, personal, académico, cuantitativo, IA).
+- No se incluyen años de experiencia exagerados, porcentajes de habilidades ni métricas no verificadas.
+- No se presenta el análisis de Bitcoin como recomendación financiera.

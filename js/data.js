@@ -25,8 +25,8 @@ export const translations = {
     hero: {
       eyebrow: "Mendoza, Argentina · Analista Universitario en Sistemas de Información | Data & AI Solutions",
       title: 'Analista Universitario en Sistemas de Información <span class="gradient-text">| Data &amp; AI Solutions</span>',
-      role: "Analista Universitario en Sistemas de Información (Título Obtenido · UTN FRM) · Estudiante Avanzado de Ingeniería · Data & AI Solutions",
-      lead: "Analista Universitario en Sistemas de Información (título oficial obtenido · UTN FRM) y estudiante avanzado de Ingeniería en Sistemas de Información. Especializado en diseño de software, modelado relacional y soluciones analíticas, potenciado por una capacidad avanzada en manipulación y aprovechamiento de Inteligencia Artificial (Prompt Engineering, integración de APIs de LLMs y automatización de flujos de trabajo) para resolver problemas técnicos y de negocio complejos con máxima eficiencia e impacto medible.",
+      role: "Analista Universitario en Sistemas de Información (Título Obtenido · UTN FRM) · Estudiante Avanzado de Ingeniería (Graduando) · Data & AI Solutions",
+      lead: "Analista Universitario en Sistemas de Información (título oficial obtenido · UTN FRM) y estudiante avanzado de Ingeniería en Sistemas de Información (graduando). Especializado en diseño de software, modelado relacional y soluciones analíticas, potenciado por una capacidad avanzada en manipulación y aprovechamiento de Inteligencia Artificial (Prompt Engineering, integración de APIs de LLMs y automatización de flujos de trabajo) para resolver problemas técnicos y de negocio complejos con máxima eficiencia e impacto medible.",
       btnProjects: 'Ver proyectos <span aria-hidden="true">↘</span>',
       btnCover: 'Carta de Presentación <span aria-hidden="true">✉</span>',
       btnCv: 'Descargar CV <span aria-hidden="true">↓</span>',
@@ -34,7 +34,7 @@ export const translations = {
       panelFocus: "ENFOQUE",
       panelStatement: "Transformar requerimientos y problemas complejos en sistemas robustos, optimizados y potenciados por IA.",
       panelSignal1: "<strong>Analista Universitario en Sistemas</strong> (Título oficial obtenido · UTN FRM)",
-      panelSignal2: "<strong>Ingeniería en Sistemas</strong> (Estudiante avanzado en curso · UTN FRM)",
+      panelSignal2: "<strong>Ingeniería en Sistemas</strong> (Estudiante avanzado / Graduando · UTN FRM)",
       panelSignal3: "<strong>Data &amp; AI Solutions</strong> (Prompt Engineering, APIs LLM &amp; Automatización)",
       panelFooter: "<span>SISTEMAS</span><i></i><span>DATOS &amp; IA</span><i></i><span>ARQUITECTURA</span>",
       scrollCue: "<span></span> Explorar portfolio",
@@ -42,10 +42,10 @@ export const translations = {
     about: {
       index: "01 / SOBRE MÍ",
       title: "Del problema a la solución integral.",
-      lead: "Analista Universitario en Sistemas de Información (título universitario oficial obtenido) y estudiante avanzado de Ingeniería en Sistemas de Información en la UTN Facultad Regional Mendoza, enfocado en la convergencia entre desarrollo de software, análisis de datos y soluciones con Inteligencia Artificial aplicada.",
+      lead: "Analista Universitario en Sistemas de Información (título universitario oficial obtenido) y estudiante avanzado de Ingeniería en Sistemas de Información (graduando) en la UTN Facultad Regional Mendoza, enfocado en la convergencia entre desarrollo de software, análisis de datos y soluciones con Inteligencia Artificial aplicada.",
       p1: "Trabajo sobre el ciclo de vida completo de las aplicaciones: relevamiento riguroso de requerimientos funcionales, especificación mediante historias de usuario, modelado formal con UML (casos de uso, diagramas de clases y de secuencia), diseño y normalización de bases de datos relacionales (1FN a 3FN) e implementación frontend y backend modular con altos estándares de consistencia, mantenibilidad y calidad.",
       p2: "Cuento con una capacidad destacada para manipular y maximizar el aprovechamiento de herramientas de Inteligencia Artificial moderna: diseño y optimización sistemática de prompts (Prompt Engineering avanzado con técnicas Few-shot y Chain-of-Thought), integración y consumo directo de APIs de modelos de lenguaje (LLMs como OpenAI, Gemini y Claude) y automatización de flujos de trabajo técnicos. Esta destreza me permite acelerar la resolución y triage de incidencias complejas, optimizar consultas de datos y entregar soluciones de alto valor técnico y comercial con agilidad superior.",
-      p3: "Mi base académica se complementa con certificaciones universitarias en Ciencia de Datos con Python, Analista de Datos (SQL y Power BI), Power BI &amp; Business Intelligence, Cloud Computing con Microsoft Azure y Arquitectura Cloud, articuladas con mi próxima meta formativa: la Tecnicatura Universitaria en Ciencia de Datos.",
+      p3: "Mi base académica se complementa con certificaciones universitarias en Ciencia de Datos con Python (UTN BA), Analista de Datos (UTN BA), Power BI (UTN FRM) y Cloud Computing con Microsoft Azure, articuladas con mi próxima meta formativa: la Tecnicatura Universitaria en Ciencia de Datos.",
       tags: [
         "Analista Universitario",
         "Ingeniería en Sistemas",
@@ -92,14 +92,14 @@ export const translations = {
       card1Inst: "Universidad Tecnológica Nacional · Facultad Regional Mendoza (UTN FRM)",
       card1BadgeTitle: "Título Universitario Oficial Obtenido",
       card1BadgeText: "Título intermedio oficial de la carrera de grado, acreditando competencias plenas en análisis funcional, diseño de sistemas, modelado relacional de datos y desarrollo de software con criterio de ingeniería.",
-      card2Date: "2021 — ACTUALIDAD · EN CURSO",
-      card2Type: "CARRERA DE GRADO UNIVERSITARIA · ESTUDIANTE AVANZADO",
+      card2Date: "2021 — ACTUALIDAD · GRADUANDO",
+      card2Type: "CARRERA DE GRADO UNIVERSITARIA · ESTUDIANTE AVANZADO (GRADUANDO)",
       card2Title: "Ingeniería en Sistemas de Información",
       card2Inst: "Universidad Tecnológica Nacional · Facultad Regional Mendoza (UTN FRM)",
-      card2BadgeTitle: "Estudiante Avanzado / En Curso",
-      card2BadgeText: "Cursando las instancias superiores de la carrera de grado en UTN FRM, profundizando en arquitecturas escalables, sistemas distribuidos, seguridad de la información y dirección estratégica de proyectos tecnológicos.",
-      card3Date: "PRÓXIMA A INICIAR",
-      card3Type: "EDUCACIÓN SUPERIOR UNIVERSITARIA · PRÓXIMA META",
+      card2BadgeTitle: "Estudiante Avanzado / Graduando",
+      card2BadgeText: "Cursando las instancias superiores de la carrera de grado en UTN FRM (graduando), profundizando en arquitecturas escalables, sistemas distribuidos, seguridad de la información y dirección estratégica de proyectos tecnológicos.",
+      card3Date: "FORMACIÓN FUTURA · PRÓXIMA A INICIAR",
+      card3Type: "EDUCACIÓN SUPERIOR UNIVERSITARIA · PRÓXIMA FORMACIÓN",
       card3Title: "Tecnicatura Universitaria en Ciencia de Datos",
       card3Inst: "Universidad Tecnológica Nacional (UTN)",
       card3BadgeTitle: "Especialización en Analítica, Modelado Predictivo e Inteligencia de Datos",
@@ -114,7 +114,7 @@ export const translations = {
       location: "Mendoza, Argentina",
     },
     footer: {
-      role: "Analista Universitario en Sistemas de Información · Ingeniería en Sistemas (UTN FRM)",
+      role: "Analista Universitario en Sistemas de Información · Ingeniería en Sistemas (UTN FRM - Graduando)",
       backTop: "Volver arriba ↑",
     },
     caseStudyLabels: {
@@ -165,8 +165,8 @@ export const translations = {
     hero: {
       eyebrow: "Mendoza, Argentina · Information Systems Analyst | Data & AI Solutions",
       title: 'Information Systems Analyst <span class="gradient-text">| Data &amp; AI Solutions</span>',
-      role: "Information Systems Analyst (University Degree · UTN FRM) · Advanced Engineering Student · Data & AI Solutions",
-      lead: "Information Systems Analyst (official university degree obtained · UTN FRM) and advanced Information Systems Engineering student. Specialized in software design, relational data modeling, and analytical solutions, augmented by advanced expertise in Artificial Intelligence manipulation (Prompt Engineering, LLM API integration, and workflow automation) to solve complex technical and business problems with maximum efficiency and measurable impact.",
+      role: "Information Systems Analyst (University Degree · UTN FRM) · Advanced Engineering Student (Graduating) · Data & AI Solutions",
+      lead: "Information Systems Analyst (official university degree obtained · UTN FRM) and advanced Information Systems Engineering student (graduating). Specialized in software design, relational data modeling, and analytical solutions, augmented by advanced expertise in Artificial Intelligence manipulation (Prompt Engineering, LLM API integration, and workflow automation) to solve complex technical and business problems with maximum efficiency and measurable impact.",
       btnProjects: 'View projects <span aria-hidden="true">↘</span>',
       btnCover: 'Cover Letter <span aria-hidden="true">✉</span>',
       btnCv: 'Download CV <span aria-hidden="true">↓</span>',
@@ -174,7 +174,7 @@ export const translations = {
       panelFocus: "FOCUS",
       panelStatement: "Transforming complex requirements into robust, optimized systems empowered by AI.",
       panelSignal1: "<strong>Information Systems Analyst</strong> (Official degree obtained · UTN FRM)",
-      panelSignal2: "<strong>Systems Engineering</strong> (Advanced student · in progress · UTN FRM)",
+      panelSignal2: "<strong>Systems Engineering</strong> (Advanced student / Graduating · UTN FRM)",
       panelSignal3: "<strong>Data &amp; AI Solutions</strong> (Prompt Engineering, LLM APIs &amp; Automation)",
       panelFooter: "<span>SYSTEMS</span><i></i><span>DATA &amp; AI</span><i></i><span>ARCHITECTURE</span>",
       scrollCue: "<span></span> Explore portfolio",
@@ -182,10 +182,10 @@ export const translations = {
     about: {
       index: "01 / ABOUT ME",
       title: "From problem to complete solution.",
-      lead: "Information Systems Analyst (official university degree obtained) and advanced Information Systems Engineering student at UTN Facultad Regional Mendoza, focused on the convergence between software development, data analytics, and applied Artificial Intelligence solutions.",
+      lead: "Information Systems Analyst (official university degree obtained) and advanced Information Systems Engineering student (graduating) at UTN Facultad Regional Mendoza, focused on the convergence between software development, data analytics, and applied Artificial Intelligence solutions.",
       p1: "I work across the complete software development lifecycle: rigorous functional requirements gathering, user stories, formal UML modeling (use cases, class diagrams, sequence diagrams), normalized relational database design (1NF to 3NF), and modular frontend/backend implementation adhering to high standards of consistency, maintainability, and code quality.",
       p2: "I possess proven expertise in manipulating and maximizing modern Artificial Intelligence tools: systematic prompt design (advanced Prompt Engineering with Few-shot and Chain-of-Thought techniques), direct integration and consumption of LLM APIs (OpenAI, Gemini, Claude), and technical workflow automation. This capability enables rapid triage and resolution of complex technical incidents, optimizes data queries, and accelerates the delivery of high-value business solutions.",
-      p3: "My academic engineering foundation is complemented by university certifications in Data Science with Python, Data Analyst (SQL & Power BI), Power BI & Business Intelligence, Cloud Computing with Microsoft Azure, and Cloud Architecture, linked with my upcoming academic milestone: the University Technician in Data Science degree.",
+      p3: "My academic engineering foundation is complemented by university certifications in Data Science with Python (UTN BA), Data Analyst (UTN BA), Power BI (UTN FRM), and Cloud Computing with Microsoft Azure, linked with my upcoming academic milestone: the University Technical Degree in Data Science.",
       tags: [
         "Systems Analyst",
         "Systems Engineering",
@@ -232,15 +232,15 @@ export const translations = {
       card1Inst: "National Technological University · Mendoza Regional Faculty (UTN FRM)",
       card1BadgeTitle: "Official University Degree Awarded",
       card1BadgeText: "Official intermediate university degree from the undergraduate engineering program, accrediting full competencies in functional analysis, software architecture, relational data modeling, and engineering development.",
-      card2Date: "2021 — PRESENT · IN PROGRESS",
-      card2Type: "UNDERGRADUATE DEGREE · ADVANCED STUDENT",
+      card2Date: "2021 — PRESENT · GRADUATING",
+      card2Type: "UNDERGRADUATE DEGREE · ADVANCED STUDENT (GRADUATING)",
       card2Title: "Information Systems Engineering",
       card2Inst: "National Technological University · Mendoza Regional Faculty (UTN FRM)",
-      card2BadgeTitle: "Advanced Undergraduate Student / In Progress",
-      card2BadgeText: "Completing upper-level courses at UTN FRM, focusing on scalable distributed architectures, systems security, and strategic technology leadership.",
-      card3Date: "UPCOMING SPECIALIZATION",
+      card2BadgeTitle: "Advanced Undergraduate Student / Graduating",
+      card2BadgeText: "Completing upper-level coursework at UTN FRM (graduating), focusing on scalable distributed architectures, systems security, and strategic technology leadership.",
+      card3Date: "FUTURE EDUCATION · UPCOMING PROGRAM",
       card3Type: "HIGHER UNIVERSITY EDUCATION · NEXT MILESTONE",
-      card3Title: "University Technician in Data Science",
+      card3Title: "University Technical Degree in Data Science",
       card3Inst: "National Technological University (UTN)",
       card3BadgeTitle: "Specialization in Analytics, Predictive Modeling & Data Intelligence",
       card3BadgeText: "Upcoming academic program centered on large-scale data pipelines, applied machine learning, data mining, and quantitative analytics for strategic decision support.",
@@ -254,7 +254,7 @@ export const translations = {
       location: "Mendoza, Argentina",
     },
     footer: {
-      role: "Information Systems Analyst · Systems Engineering (UTN FRM)",
+      role: "Information Systems Analyst · Systems Engineering (UTN FRM - Graduating)",
       backTop: "Back to top ↑",
     },
     caseStudyLabels: {
@@ -295,7 +295,7 @@ export const coverLetterContent = {
     intro:
       "Les escribo para presentar formalmente mi postulación a oportunidades como Analista de Sistemas, Desarrollador de Software, Analista de Datos y roles orientados a Soluciones de Datos e Inteligencia Artificial Aplicada.",
     academic:
-      "Cuento con el título universitario oficial de <strong>Analista Universitario en Sistemas de Información</strong> otorgado por la Universidad Tecnológica Nacional (UTN Facultad Regional Mendoza), donde continúo activamente como <strong>estudiante avanzado de la carrera de grado en Ingeniería en Sistemas de Información</strong>. Asimismo, cuento con ingreso confirmado a la <strong>Tecnicatura Universitaria en Ciencia de Datos</strong> para profundizar en pipelines analíticos y modelado predictivo.",
+      "Cuento con el título universitario oficial de <strong>Analista Universitario en Sistemas de Información</strong> otorgado por la Universidad Tecnológica Nacional (UTN Facultad Regional Mendoza), donde continúo activamente como <strong>estudiante avanzado de la carrera de grado en Ingeniería en Sistemas de Información (graduando)</strong>. Asimismo, cuento con formación futura proyectada en la <strong>Tecnicatura Universitaria en Ciencia de Datos</strong> para profundizar en pipelines analíticos y modelado predictivo.",
     aiSkills:
       "Un factor diferencial clave en mi perfil es mi <strong>capacidad práctica para manipular y aprovechar modelos de Inteligencia Artificial moderna</strong>: diseño sistemático de prompts mediante <em>Prompt Engineering</em> avanzado (estrategias Few-shot, Chain-of-Thought e instrucciones estructuradas), consumo directo de APIs de LLMs (OpenAI, Gemini, Anthropic) y automatización de procesos técnicos. Esto me permite acelerar diagnósticos, resolver incidencias complejas y optimizar consultas y flujos analíticos con alta velocidad y consistencia.",
     projectsIntro:
@@ -303,39 +303,35 @@ export const coverLetterContent = {
     projectsList: [
       {
         name: "Konta",
-        desc: "Sistema de gestión comercial, ventas, inventario y balances financieros con consistencia transaccional relacional (ACID).",
-      },
-      {
-        name: "GymFit Life",
-        desc: "Sistema integral para centros de entrenamiento: gestión de membresías, rutinas de socios, agendas y control administrativo.",
+        desc: "Sistema de gestión comercial y ventas: plataforma para administrar transacciones comerciales, ingresos, egresos, balances financieros y trazabilidad contable con consistencia relacional (ACID).",
       },
       {
         name: "Life Flow",
-        desc: "Sistema para bienestar y gestión de hábitos diarios saludables con arquitectura modular y persistencia estructurada.",
+        desc: "Sistema para la gestión integral de la salud, hábitos saludables y bienestar personal con arquitectura modular y persistencia estructurada de datos.",
       },
       {
         name: "FitTracker",
-        desc: "Aplicación web responsiva de seguimiento de rutinas, series y volumen de entrenamiento físico (React, APIs, Docker).",
+        desc: "Aplicación web responsiva (mobile-first) de seguimiento de entrenamientos físicos, cargas, series y progresión de volumen acumulado (React, APIs, Docker).",
       },
       {
         name: "FitConnection",
-        desc: "Plataforma de enlace entre deportistas y entrenadores personales (análisis formal UML, pasarela de pagos, arquitectura de software).",
+        desc: "Plataforma académica y de software para conectar atletas con entrenadores personales (análisis formal UML, pasarela de pagos, arquitectura modular).",
       },
       {
         name: "Bitcoin Market Analytics",
-        desc: "Pipeline de datos históricos, volatilidad y análisis cuantitativo de Bitcoin con Python (Pandas, Matplotlib).",
+        desc: "Investigación cuantitativa y pipeline de análisis de datos históricos de Bitcoin con Python (Pandas, Matplotlib) y análisis exploratorio (EDA).",
       },
       {
         name: "Gaming Management",
-        desc: "Plataforma para gestión de torneos de esports, comunidades gamer y asignación automatizada de salas.",
+        desc: "Sistema para administración de comunidades gamer, gestión de torneos de esports, generación automatizada de llaves (brackets) y tablas de clasificación.",
       },
       {
-        name: "Soluciones con IA",
-        desc: "Flujos de automatización técnica, depuración asistida y resolución de incidencias con LLMs y APIs de IA.",
+        name: "Soluciones con Inteligencia Artificial",
+        desc: "Uso de modelos LLM, Prompt Engineering avanzado (Few-shot, Chain-of-Thought) e integración de APIs para la resolución de problemas tecnológicos y de negocio complejos.",
       },
     ],
     dataAndCert:
-      "Mi base de ingeniería se respalda con certificaciones oficiales universitarias en <strong>Ciencia de Datos con Python</strong> (UTN BA), <strong>Analista de Datos: SQL & Power BI</strong> (UTN BA), <strong>Power BI & Business Intelligence</strong> (UTN Mendoza) y <strong>Cloud Computing con Microsoft Azure</strong> (Microsoft · UTN). Domino el modelado relacional riguroso (1FN a 3FN), consultas SQL complejas y control de versiones con Git/GitHub.",
+      "Mi base de ingeniería se respalda con certificaciones oficiales universitarias en <strong>Ciencia de Datos con Python</strong> (UTN BA), <strong>Analista de Datos</strong> (UTN BA), <strong>Power BI & Business Intelligence</strong> (UTN Mendoza) y <strong>Cloud Computing con Microsoft Azure</strong> (Microsoft · UTN). Domino el modelado relacional riguroso (1FN a 3FN), consultas SQL complejas y control de versiones con Git/GitHub.",
     closing:
       "Me defino como un profesional proactivo, analítico y comprometido con la calidad del software y el valor de negocio. Agradezco la oportunidad de coordinar una entrevista técnica para profundizar en cómo mis competencias pueden sumar valor inmediato a su equipo.",
     signoff: "Atentamente,",
@@ -349,7 +345,7 @@ export const coverLetterContent = {
     intro:
       "I am writing to formally present my candidacy for opportunities as an Information Systems Analyst, Software Developer, Data Analyst, or Applied AI Solutions Specialist.",
     academic:
-      "I hold an official university degree as an <strong>Information Systems Analyst</strong> from the National Technological University (UTN Mendoza Regional Faculty), where I am also an <strong>advanced student in the Information Systems Engineering undergraduate program</strong>. Additionally, I am enrolled to pursue the upcoming <strong>University Technician in Data Science</strong> degree to further specialize in scalable data pipelines and predictive modeling.",
+      "I hold an official university degree as an <strong>Information Systems Analyst</strong> from the National Technological University (UTN Mendoza Regional Faculty), where I am also an <strong>advanced undergraduate student in Information Systems Engineering (graduating)</strong>. Additionally, I plan to pursue the upcoming <strong>University Technical Degree in Data Science</strong> to further specialize in scalable data pipelines and predictive modeling.",
     aiSkills:
       "A primary differentiator in my technical profile is my <strong>hands-on capability to manipulate and leverage modern Artificial Intelligence models</strong>: systematic prompt design through advanced <em>Prompt Engineering</em> (Few-shot, Chain-of-Thought, and structured context guidance), direct API integration with leading LLMs (OpenAI, Gemini, Anthropic), and technical workflow automation. This allows me to rapidly troubleshoot complex issues, optimize data pipelines, and deliver high-value software solutions at an accelerated pace.",
     projectsIntro:
@@ -357,39 +353,35 @@ export const coverLetterContent = {
     projectsList: [
       {
         name: "Konta",
-        desc: "Commercial management, sales, inventory, and financial balances platform with relational transactional consistency (ACID).",
-      },
-      {
-        name: "GymFit Life",
-        desc: "Comprehensive platform for fitness centers: membership tracking, workout routines, class scheduling, and administrative operations.",
+        desc: "Commercial management and sales system: platform to manage commercial transactions, revenue, expenses, financial balance sheets, and business transaction history with relational transactional consistency (ACID).",
       },
       {
         name: "Life Flow",
-        desc: "Holistic wellness and daily healthy habit tracking system featuring modular architecture and structured persistence.",
+        desc: "System for holistic health, healthy habits, and personal well-being management built on modular architecture and structured data persistence.",
       },
       {
         name: "FitTracker",
-        desc: "Responsive web application tracking workout routines, sets, and progressive overload volume (React, APIs, Docker).",
+        desc: "Responsive web application (mobile-first) for tracking physical exercises, workout routines, sets, progressive loads, and training volume (React, APIs, Docker).",
       },
       {
         name: "FitConnection",
-        desc: "Platform connecting athletes and personal trainers (formal UML engineering, payment gateway, modular services).",
+        desc: "Academic and software platform connecting athletes with personal trainers (formal UML engineering, payment gateway, modular architecture).",
       },
       {
         name: "Bitcoin Market Analytics",
-        desc: "Historical data pipeline, rolling volatility, and quantitative analysis of Bitcoin using Python (Pandas, Matplotlib).",
+        desc: "Quantitative research and historical data pipeline of Bitcoin market data using Python (Pandas, Matplotlib) and exploratory data analysis (EDA).",
       },
       {
         name: "Gaming Management",
-        desc: "Esports competition platform managing automated tournament brackets, gamer communities, and match room allocations.",
+        desc: "System for gaming community management, esports tournament orchestration, automated bracket generation, and leaderboards.",
       },
       {
-        name: "AI Solutions",
-        desc: "Technical automation workflows, automated diagnostics, and structured LLM API orchestration.",
+        name: "Artificial Intelligence Solutions",
+        desc: "Deployment of LLM models, advanced Prompt Engineering (Few-shot, Chain-of-Thought), and API integrations to solve complex technical and business challenges.",
       },
     ],
     dataAndCert:
-      "My engineering foundation is reinforced by official university certifications in <strong>Data Science with Python</strong> (UTN BA), <strong>Data Analyst: SQL & Power BI</strong> (UTN BA), <strong>Power BI & Business Intelligence</strong> (UTN Mendoza), and <strong>Cloud Computing with Microsoft Azure</strong> (Microsoft · UTN). I have strong expertise in relational database normalization (1NF to 3NF), advanced SQL, and collaborative Git/GitHub workflows.",
+      "My engineering foundation is reinforced by official university certifications in <strong>Data Science with Python</strong> (UTN BA), <strong>Data Analyst</strong> (UTN BA), <strong>Power BI & Business Intelligence</strong> (UTN Mendoza), and <strong>Cloud Computing with Microsoft Azure</strong> (Microsoft · UTN). I have strong expertise in relational database normalization (1NF to 3NF), advanced SQL, and collaborative Git/GitHub workflows.",
     closing:
       "I am an analytical, outcome-oriented developer committed to code craftsmanship and business impact. Thank you for your consideration, and I welcome the opportunity to discuss my qualifications in a technical interview.",
     signoff: "Sincerely,",
@@ -412,7 +404,7 @@ export const rawProjects = [
       name: "Konta",
       category: "Gestión Comercial & Ventas / Finanzas",
       description:
-        "Sistema de gestión comercial, ventas, inventario y balances financieros con consistencia transaccional relacional para empresas y comercios.",
+        "Sistema de gestión comercial y ventas: plataforma para administrar transacciones comerciales, ingresos, egresos, balances financieros e historial de negocios con consistencia transaccional relacional (ACID).",
       problem:
         "La dispersión de operaciones de ventas, el seguimiento manual de inventarios y la falta de control contable unificado provocan descuadres financieros, pérdida de stock y demoras críticas en la toma de decisiones comerciales.",
       solution:
@@ -462,7 +454,7 @@ export const rawProjects = [
       name: "Konta",
       category: "Commercial Management & Sales / Finance",
       description:
-        "Commercial management, sales, inventory, and financial balances system with relational transactional consistency for retail and businesses.",
+        "Commercial management and sales system: platform to manage commercial transactions, revenue, expenses, financial balance sheets, and business transaction history with relational transactional consistency (ACID).",
       problem:
         "Dispersed sales records, manual inventory tracking, and disconnected accounting generate cash mismatches, stock loss, and critical delays in business decision-making.",
       solution:
@@ -510,117 +502,8 @@ export const rawProjects = [
     },
   },
   {
-    id: "gymfit-life",
-    number: "02",
-    accent: "violet",
-    image: "assets/projects/gymfit-life.svg",
-    repositoryUrl: "",
-    demoUrl: "",
-    featured: true,
-    es: {
-      name: "GymFit Life",
-      category: "Plataforma de Gestión / Fitness & Salud",
-      description:
-        "Sistema integral para centros de entrenamiento: gestión de membresías, rutinas de socios, agendas y control administrativo.",
-      problem:
-        "Los centros deportivos pierden socios y eficiencia operativa cuando la gestión de membresías, el control de aforo por turnos y el seguimiento de rutinas se gestionan de forma fragmentada o en papel.",
-      solution:
-        "Plataforma centralizada con arquitectura cliente-servidor y roles diferenciados que unifica el control administrativo con la experiencia deportiva interactiva de atletas y entrenadores.",
-      stack: ["JavaScript", "HTML5/CSS3", "Modelado Relacional", "UI/UX", "Gestión Fitness"],
-      status: "Proyecto destacado / Funcional",
-      imageAlt: "Interfaz de la plataforma GymFit Life",
-      responsibilities: [
-        "Relevamiento y modelado de procesos del negocio deportivo y centros de fitness",
-        "Diseño y normalización de la base de datos relacional (DER en 3FN)",
-        "Arquitectura de software cliente-servidor y servicios modulares",
-        "Diseño de interfaz (UI) y experiencia de usuario responsive (UX)",
-        "Control de roles, permisos, membresías recurrentes y reservas de turnos",
-      ],
-      features: [
-        "Administración integral de membresías, vencimientos y estados de pago",
-        "Seguimiento personalizado de atletas, métricas corporales y evolución física",
-        "Creación, asignación y consulta interactiva de rutinas de entrenamiento",
-        "Gestión de turnos, reserva de clases y control de cupos en tiempo real",
-        "Panel de control administrativo para staff, entrenadores y clientes",
-        "Métricas operativas de retención, horarios pico y concurrencia",
-      ],
-      caseStudy: {
-        context:
-          "Plataforma creada para profesionalizar y digitalizar la operación completa de gimnasios, centros de cross-training y estudios fitness.",
-        objectives:
-          "Eliminar la fricción en recepción, optimizar la capacidad de las instalaciones y proveer a los socios una herramienta ágil para seguir su entrenamiento.",
-        users: ["Atleta / Socio", "Entrenador / Coach", "Administrador del Centro"],
-        requirements:
-          "Validación de estados de membresía, gestión de aforo máximo por clase, visor de series y cargas para atletas, y panel de facturación.",
-        architecture:
-          "Arquitectura desacoplada: interfaz responsive optimizada para dispositivos móviles en sala de pesas, backend modular y base de datos relacional.",
-        dataModel:
-          "Entidades normalizadas: Clientes, Entrenadores, Membresías, Turnos/Clases, Reservas, Rutinas, Ejercicios y Registros Antropométricos.",
-        decisions:
-          "Diseño mobile-first para las pantallas de atletas y entrenadores; separación estricta de responsabilidades entre gestión física y administración contable.",
-        challenges:
-          "Manejo de concurrencia en la reserva de cupos en horarios pico y diseño de interfaces que faciliten la carga ágil de datos durante el entrenamiento.",
-        results:
-          "Integración total de la relación cliente-gimnasio en un único entorno, simplificando la administración y mejorando la retención de socios.",
-        learnings:
-          "Modelado entidad-relación de alta complejidad, experiencia de usuario orientada a deportistas y control de estados de suscripción.",
-        next: "Automatización de recordatorios de turnos vía mensajería y cobros automáticos recurrentes.",
-      },
-    },
-    en: {
-      name: "GymFit Life",
-      category: "Management Platform / Fitness & Health",
-      description:
-        "Comprehensive system for training centers and gyms: membership management, member routines, schedules, and administrative control.",
-      problem:
-        "Fitness centers experience member drop-off and administrative bottlenecks when subscriptions, class capacity, and training logs are managed on paper or disconnected apps.",
-      solution:
-        "Centralized web platform with client-server architecture and role-based access unifying front-desk management with an interactive training experience for athletes and coaches.",
-      stack: ["JavaScript", "HTML5/CSS3", "Relational Modeling", "UI/UX", "Fitness Management"],
-      status: "Featured Project / Functional",
-      imageAlt: "GymFit Life management platform interface",
-      responsibilities: [
-        "Business process mapping and functional requirements analysis for sports facilities",
-        "Relational database design and 3NF normalization",
-        "Client-server software architecture and modular API endpoints",
-        "Responsive user interface (UI) and user experience (UX) design",
-        "Role-based access control, recurring memberships, and class booking management",
-      ],
-      features: [
-        "Complete subscription lifecycle, renewal dates, and payment status tracking",
-        "Athletic evolution tracking, body composition metrics, and workout adherence",
-        "Interactive workout routine creation, assignment, and execution views",
-        "Real-time class booking and gym capacity control",
-        "Role-specific administrative dashboards for owners, coaches, and members",
-        "Operational analytics on retention rates, peak hours, and attendance",
-      ],
-      caseStudy: {
-        context:
-          "Designed to modernize and streamline end-to-end operations for commercial gyms, cross-training boxes, and fitness studios.",
-        objectives:
-          "Eliminate reception desk friction, maximize facility capacity, and provide members with a fast tool to track workouts on the gym floor.",
-        users: ["Gym Member / Athlete", "Personal Trainer / Coach", "Facility Administrator"],
-        requirements:
-          "Instant membership verification, hard capacity limits on group classes, athlete workout view, and recurring fee management.",
-        architecture:
-          "Decoupled client-server design: mobile-responsive UI optimized for workout floors, modular backend services, and relational persistence.",
-        dataModel:
-          "Normalized entities: Members, Trainers, Memberships, Class_Slots, Bookings, Routines, Exercises, and Anthropometric_Logs.",
-        decisions:
-          "Mobile-first philosophy for gym floor interactions; strict separation between workout tracking and membership billing modules.",
-        challenges:
-          "Managing booking concurrency during peak class registration windows with zero overbooking.",
-        results:
-          "Unified client-facility relationship within a single platform, eliminating paper waivers and boosting member retention.",
-        learnings:
-          "Complex relational schema design, sports UX design principles, and state machine modeling for subscription lifecycles.",
-        next: "Automated booking reminder notifications and automated recurring payment integrations.",
-      },
-    },
-  },
-  {
     id: "life-flow",
-    number: "03",
+    number: "02",
     accent: "violet",
     image: "assets/projects/life-flow.svg",
     repositoryUrl: "",
@@ -628,9 +511,9 @@ export const rawProjects = [
     featured: true,
     es: {
       name: "Life Flow",
-      category: "Bienestar Integral / Hábitos Saludables",
+      category: "Salud & Bienestar Integral / Hábitos",
       description:
-        "Sistema para bienestar y gestión de hábitos diarios saludables con arquitectura modular y persistencia estructurada de datos.",
+        "Sistema para organizar y gestionar la salud, hábitos saludables y el cuidado integral del cuerpo con arquitectura modular y persistencia estructurada de datos.",
       problem:
         "La fragmentación en el registro de hábitos de salud (sueño, hidratación, actividad y mindfulness) dificulta la constancia del usuario y la correlación de datos para un estilo de vida saludable.",
       solution:
@@ -678,9 +561,9 @@ export const rawProjects = [
     },
     en: {
       name: "Life Flow",
-      category: "Holistic Wellness / Healthy Habits",
+      category: "Holistic Health & Wellness / Habits",
       description:
-        "System for comprehensive well-being and daily healthy habit management built on modular architecture and structured data persistence.",
+        "System to organize and manage health, healthy habits, and personal well-being built on modular architecture and structured data persistence.",
       problem:
         "Fragmented logging across health dimensions (sleep, hydration, physical activity, mindfulness) undermines user consistency and prevents meaningful correlation of wellness metrics.",
       solution:
@@ -729,7 +612,7 @@ export const rawProjects = [
   },
   {
     id: "fittracker",
-    number: "04",
+    number: "03",
     accent: "blue",
     image: "assets/projects/fittracker.svg",
     repositoryUrl: "",
@@ -737,9 +620,9 @@ export const rawProjects = [
     featured: true,
     es: {
       name: "FitTracker",
-      category: "Tracking de Rendimiento / Mobile-First",
+      category: "Tracking de Rendimiento Físico / Mobile-First",
       description:
-        "Aplicación web responsiva de seguimiento de rutinas, series y volumen de entrenamiento físico (React, APIs, Docker).",
+        "Aplicación responsiva diseñada bajo filosofía mobile-first para el seguimiento de ejercicios físicos, rutinas, cargas, series y progresión de volumen acumulado (React, APIs, Docker).",
       problem:
         "El registro de entrenamientos de fuerza en notas manuales o libretas impide calcular el volumen progresivo (tonelaje), comparar cargas históricas y monitorear la fatiga en tiempo real durante la sesión.",
       solution:
@@ -787,9 +670,9 @@ export const rawProjects = [
     },
     en: {
       name: "FitTracker",
-      category: "Performance Tracking / Mobile-First",
+      category: "Physical Workout Tracking / Mobile-First",
       description:
-        "Responsive web application for tracking workouts, sets, repetitions, and progressive volume built mobile-first (React, APIs, Docker).",
+        "Responsive mobile-first application for tracking physical exercises, workout routines, progressive loads, sets, and training volume (React, APIs, Docker).",
       problem:
         "Tracking progressive overload on paper or memory prevents accurate calculation of weekly tonnage, fatigue levels, and historical load progression.",
       solution:
@@ -838,7 +721,7 @@ export const rawProjects = [
   },
   {
     id: "fitconnection",
-    number: "05",
+    number: "04",
     accent: "amber",
     image: "assets/projects/fitconnection.svg",
     repositoryUrl: "",
@@ -846,9 +729,9 @@ export const rawProjects = [
     featured: true,
     es: {
       name: "FitConnection",
-      category: "Plataforma de Servicios / Red de Entrenadores",
+      category: "Plataforma Académica / Red de Entrenadores",
       description:
-        "Plataforma de enlace entre deportistas y entrenadores (UML, pasarela de pagos, arquitectura de software).",
+        "Plataforma académica y de software para conectar atletas con entrenadores personales, diseñada bajo principios formales de ingeniería de software (análisis UML, pasarela de pagos, arquitectura modular).",
       problem:
         "La intermediación entre deportistas y entrenadores personales independientes sufre de desorganización en agendas, falta de trazabilidad en los cobros y escasa validación de certificaciones y reputación profesional.",
       solution:
@@ -896,9 +779,9 @@ export const rawProjects = [
     },
     en: {
       name: "FitConnection",
-      category: "Services Marketplace / Trainer Network",
+      category: "Academic Platform / Trainer Network",
       description:
-        "Platform connecting athletes and personal trainers (UML, payment gateway, software architecture).",
+        "Academic and software platform connecting athletes with personal trainers, designed under formal software engineering principles (UML analysis, payment gateway, modular architecture).",
       problem:
         "Independent fitness trainer marketplaces suffer from disorganized scheduling, unverified coach credentials, and lack of billing traceability.",
       solution:
@@ -947,8 +830,8 @@ export const rawProjects = [
   },
   {
     id: "bitcoin-market-analytics",
-    number: "06",
-    accent: "amber",
+    number: "05",
+    accent: "cyan",
     image: "assets/projects/bitcoin.svg",
     repositoryUrl: "",
     demoUrl: "",
@@ -957,7 +840,7 @@ export const rawProjects = [
       name: "Bitcoin Market Analytics",
       category: "Análisis Cuantitativo / Data Science",
       description:
-        "Pipeline de datos históricos, volatilidad y análisis cuantitativo de Bitcoin con Python (Pandas, Matplotlib).",
+        "Investigación cuantitativa de datos históricos de Bitcoin con Python (Pandas, Matplotlib), cálculo de volatilidad y análisis exploratorio (EDA).",
       problem:
         "La extrema volatilidad y el ruido en las cotizaciones de mercados cripto complican la comprensión del comportamiento de precios, la evaluación de riesgos y la identificación de patrones históricos sin herramientas cuantitativas rigurosas.",
       solution:
@@ -1007,7 +890,7 @@ export const rawProjects = [
       name: "Bitcoin Market Analytics",
       category: "Quantitative Analytics / Data Science",
       description:
-        "Historical data pipeline, rolling volatility, and quantitative analysis of Bitcoin using Python (Pandas, Matplotlib).",
+        "Quantitative research and historical data pipeline of Bitcoin market data using Python (Pandas, Matplotlib), volatility modeling, and exploratory data analysis (EDA).",
       problem:
         "Extreme price volatility and statistical noise in crypto markets obscure underlying behavioral patterns and risk profiles without a disciplined quantitative pipeline.",
       solution:
@@ -1056,7 +939,7 @@ export const rawProjects = [
   },
   {
     id: "gaming-management",
-    number: "07",
+    number: "06",
     accent: "violet",
     image: "assets/projects/gaming-management.svg",
     repositoryUrl: "",
@@ -1066,7 +949,7 @@ export const rawProjects = [
       name: "Gaming Management",
       category: "Gestión de Comunidades & Torneos / Esports",
       description:
-        "Plataforma para gestión de torneos de esports, comunidades gamer y asignación de salas con modelado relacional y reglas de negocio.",
+        "Sistema para la administración de comunidades gamer, torneos de esports (competencias) y tablas de clasificación con modelado relacional y reglas de negocio.",
       problem:
         "La gestión manual de torneos competitivos de videojuegos, el control de cupos en salas de juego y el registro desordenado de resultados provocan desinformación, demoras en fixtures y disputas entre equipos.",
       solution:
@@ -1116,7 +999,7 @@ export const rawProjects = [
       name: "Gaming Management",
       category: "Community & Tournament Management / Esports",
       description:
-        "Platform for esports tournament management, gamer communities, and match room allocation with relational modeling and business logic.",
+        "System for gaming community management, esports tournament orchestration, and leaderboards with relational modeling and business logic.",
       problem:
         "Manual tournament coordination, unmonitored room capacities, and scattered score submissions cause fixture delays and disputes among competitive teams.",
       solution:
@@ -1165,17 +1048,17 @@ export const rawProjects = [
   },
   {
     id: "ai-solutions",
-    number: "08",
+    number: "07",
     accent: "blue",
     image: "assets/projects/ai-solutions.svg",
     repositoryUrl: "",
     demoUrl: "",
     featured: true,
     es: {
-      name: "Soluciones con IA & Automatización",
-      category: "Inteligencia Artificial Aplicada / Automatización",
+      name: "Soluciones con Inteligencia Artificial",
+      category: "Inteligencia Artificial Aplicada & Automatización",
       description:
-        "Flujos de automatización y resolución de incidencias con LLMs y APIs de IA. Manipulación de modelos, Prompt Engineering y aceleración de análisis de datos.",
+        "Soluciones mediante Inteligencia Artificial: uso de modelos LLM, Prompt Engineering avanzado (Few-shot, Chain-of-Thought) e integración de APIs para la resolución de problemas tecnológicos y de negocio complejos.",
       problem:
         "Los procesos manuales de diagnóstico técnico, depuración de incidencias complejas y análisis de datos desestructurados demandan tiempos operativos elevados y generan cuellos de botella.",
       solution:
@@ -1222,10 +1105,10 @@ export const rawProjects = [
       },
     },
     en: {
-      name: "AI Solutions & Automation",
-      category: "Applied Artificial Intelligence / Automation",
+      name: "Artificial Intelligence Solutions",
+      category: "Applied Artificial Intelligence & Automation",
       description:
-        "Automation workflows and incident resolution using LLMs and AI APIs. Advanced model manipulation, Prompt Engineering, and accelerated data analysis.",
+        "Artificial Intelligence Solutions: deployment of LLM models, advanced Prompt Engineering (Few-shot, Chain-of-Thought), and API integrations to solve complex technical and business challenges.",
       problem:
         "Manual technical triage, complex bug diagnostics, and unstructured data ingestion require excessive engineering hours and introduce operational bottlenecks.",
       solution:
@@ -1419,16 +1302,6 @@ export const certificationsData = {
       image: "assets/certificates/azure.svg",
       certificateUrl: "",
     },
-    {
-      name: "Arquitectura e Ingeniería Cloud",
-      institution: "Fundación Educativa Santísima Trinidad",
-      year: "Certificación Oficial",
-      duration: "Fundamentos de diseño de arquitecturas cloud, microservicios y buenas prácticas",
-      status: "Aprobado",
-      skills: ["Arquitectura Cloud", "Infraestructura", "Seguridad"],
-      image: "assets/certificates/cloud-architecture.svg",
-      certificateUrl: "",
-    },
   ],
   en: [
     {
@@ -1469,16 +1342,6 @@ export const certificationsData = {
       status: "Certified",
       skills: ["Microsoft Azure", "Cloud Computing", "Cloud Infrastructure"],
       image: "assets/certificates/azure.svg",
-      certificateUrl: "",
-    },
-    {
-      name: "Cloud Architecture & Engineering",
-      institution: "Santísima Trinidad Educational Foundation",
-      year: "Official Certification",
-      duration: "Cloud architecture foundations, microservices, and industry best practices",
-      status: "Certified",
-      skills: ["Cloud Architecture", "Infrastructure", "Security"],
-      image: "assets/certificates/cloud-architecture.svg",
       certificateUrl: "",
     },
   ],
