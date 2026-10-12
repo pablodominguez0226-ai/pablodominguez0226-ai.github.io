@@ -1341,6 +1341,217 @@ h2 {
   .case-sections {
     padding-inline: 1.4rem;
   }
+
+  .cover-letter-header {
+    padding: 3.5rem 1.4rem 1.5rem;
+  }
+
+  .cover-letter-body {
+    padding: 1.5rem 1.4rem 2rem;
+  }
+}
+
+/* ==========================================================================
+   Language Selector (Navbar & Mobile)
+   ========================================================================== */
+
+.lang-switch-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 38px;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  cursor: pointer;
+  font-family: "DM Mono", monospace;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  transition: all 160ms ease;
+}
+
+.lang-switch:hover {
+  border-color: var(--cyan);
+  background: rgba(92, 225, 230, 0.09);
+  color: var(--text);
+}
+
+.lang-switch .lang-opt {
+  transition: color 160ms ease;
+}
+
+.lang-switch .lang-opt.is-active {
+  color: var(--cyan);
+  font-weight: 700;
+}
+
+.lang-switch .lang-sep {
+  opacity: 0.35;
+}
+
+/* ==========================================================================
+   Cover Letter Modal Dialog
+   ========================================================================== */
+
+.cover-dialog {
+  width: min(860px, calc(100% - 2rem));
+  border: 1px solid var(--line-strong);
+}
+
+.cover-letter-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: clamp(2rem, 4vw, 3.5rem);
+  border-bottom: 1px solid var(--line);
+  background:
+    radial-gradient(circle at 85% 15%, rgba(167, 131, 255, 0.12), transparent 22rem),
+    var(--bg-deep);
+}
+
+.cover-header-text h2 {
+  margin: 0.35rem 0 0.5rem;
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-weight: 700;
+}
+
+.cover-header-text p {
+  margin: 0;
+  color: var(--muted);
+  font-family: "DM Mono", monospace;
+  font-size: 0.85rem;
+}
+
+.cover-lang-toggle {
+  display: inline-flex;
+  gap: 0.35rem;
+  padding: 0.3rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface);
+}
+
+.cover-lang-btn {
+  padding: 0.4rem 0.95rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: "DM Mono", monospace;
+  font-size: 0.74rem;
+  font-weight: 600;
+  transition: all 160ms ease;
+}
+
+.cover-lang-btn:hover {
+  color: var(--text);
+}
+
+.cover-lang-btn.is-active {
+  background: var(--cyan);
+  color: #041019;
+  font-weight: 700;
+}
+
+.cover-letter-body {
+  padding: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.78;
+}
+
+.cover-letter-body p {
+  margin-bottom: 1.25rem;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.cover-letter-body p.cover-salutation {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 1.05rem;
+}
+
+.cover-letter-body ul {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1.5rem 0 1.75rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.cover-letter-body li {
+  position: relative;
+  padding: 0.75rem 1rem 0.75rem 2rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.cover-letter-body li::before {
+  position: absolute;
+  top: 1rem;
+  left: 0.85rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--cyan);
+  content: "";
+}
+
+.cover-letter-body li strong {
+  color: var(--text);
+}
+
+.cover-signature {
+  margin-top: 2.25rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.cover-signature p {
+  margin-bottom: 0.25rem;
+  color: var(--muted);
+}
+
+.cover-signature strong {
+  display: block;
+  font-size: 1.2rem;
+  color: var(--text);
+}
+
+.cover-signature span {
+  display: block;
+  color: var(--cyan);
+  font-family: "DM Mono", monospace;
+  font-size: 0.82rem;
+}
+
+.cover-signature small {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.cover-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
 }
 
 @media (prefers-reduced-motion: reduce) {

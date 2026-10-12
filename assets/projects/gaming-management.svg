@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+  <defs>
+    <linearGradient id="bg-gaming" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#14112e"/>
+      <stop offset="1" stop-color="#070617"/>
+    </linearGradient>
+    <linearGradient id="cyber-glow" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#a783ff"/>
+      <stop offset="1" stop-color="#5ce1e6"/>
+    </linearGradient>
+    <linearGradient id="neon-cyan" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#5ce1e6" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#5ce1e6" stop-opacity=".15"/>
+    </linearGradient>
+    <filter id="shadow-gaming">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <!-- Shell principal -->
+  <rect x="64" y="44" width="592" height="420" rx="24" fill="url(#bg-gaming)" stroke="#a783ff" stroke-opacity=".35" filter="url(#shadow-gaming)"/>
+
+  <!-- Barra superior -->
+  <rect x="64" y="44" width="592" height="54" rx="24" fill="#120e29"/>
+  <circle cx="98" cy="71" r="6" fill="#a783ff"/>
+  <circle cx="118" cy="71" r="6" fill="#5ce1e6"/>
+  <circle cx="138" cy="71" r="6" fill="#f4b85c"/>
+  <text x="170" y="75" fill="#a783ff" font-family="'DM Mono', monospace" font-size="11" letter-spacing="1">GAMING MANAGEMENT // ESPORTS &amp; COMUNIDADES</text>
+  <rect x="500" y="60" width="132" height="22" rx="6" fill="#a783ff" opacity=".15"/>
+  <text x="566" y="75" text-anchor="middle" fill="#a783ff" font-family="monospace" font-size="9">TORNEOS &amp; SALAS LIVE</text>
+
+  <!-- Panel Izquierdo: Brackets de Torneo & Partidas -->
+  <g transform="translate(90, 116)">
+    <rect x="0" y="0" width="240" height="316" rx="14" fill="#0d0a20" stroke="#a783ff" stroke-opacity=".2"/>
+
+    <text x="18" y="28" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Torneo Apertura // Brackets</text>
+    <text x="18" y="44" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">Fase Final · Eliminación Directa</text>
+
+    <!-- Match 1: Cuartos -->
+    <rect x="16" y="58" width="208" height="52" rx="8" fill="#171233"/>
+    <text x="28" y="78" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Team Alpha</text>
+    <text x="170" y="78" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="11" font-weight="700">2</text>
+    <text x="28" y="98" fill="#8ca0b3" font-family="'Segoe UI', sans-serif" font-size="10">Vortex Gaming</text>
+    <text x="170" y="98" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="11">1</text>
+    <rect x="188" y="66" width="28" height="36" rx="4" fill="#5ce1e6" opacity=".15"/>
+    <text x="202" y="88" text-anchor="middle" fill="#5ce1e6" font-family="monospace" font-size="8">WIN</text>
+
+    <!-- Match 2: Cuartos -->
+    <rect x="16" y="118" width="208" height="52" rx="8" fill="#171233"/>
+    <text x="28" y="138" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Nexus Esports</text>
+    <text x="170" y="138" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="11" font-weight="700">2</text>
+    <text x="28" y="158" fill="#8ca0b3" font-family="'Segoe UI', sans-serif" font-size="10">Cyber Wolves</text>
+    <text x="170" y="158" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="11">0</text>
+    <rect x="188" y="126" width="28" height="36" rx="4" fill="#5ce1e6" opacity=".15"/>
+    <text x="202" y="148" text-anchor="middle" fill="#5ce1e6" font-family="monospace" font-size="8">WIN</text>
+
+    <!-- Final / Semis Bracket -->
+    <text x="18" y="196" fill="#a783ff" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600">GRAN FINAL PROGRAMADA</text>
+    <rect x="16" y="206" width="208" height="54" rx="8" fill="#171233" stroke="#5ce1e6" stroke-opacity=".3"/>
+    <text x="28" y="226" fill="#5ce1e6" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">Alpha vs Nexus</text>
+    <text x="28" y="244" fill="#8ca0b3" font-family="monospace" font-size="8">Sala Principal 01 · Bo5 · 21:00 hs</text>
+    <circle cx="198" cy="233" r="8" fill="#f4b85c" opacity=".2"/>
+    <polygon points="196,229 202,233 196,237" fill="#f4b85c"/>
+
+    <!-- Estado del torneo -->
+    <rect x="16" y="272" width="208" height="30" rx="6" fill="#a783ff" opacity=".15"/>
+    <text x="120" y="291" text-anchor="middle" fill="#a783ff" font-family="monospace" font-size="9">POZO DE PREMIOS: $ 250.000</text>
+  </g>
+
+  <!-- Panel Derecho: Salas de Juego, Leaderboard & Perfiles -->
+  <g transform="translate(350, 116)">
+    <!-- Salas de Juego & Recursos Digitales -->
+    <rect x="0" y="0" width="280" height="150" rx="14" fill="#0d0a20" stroke="#a783ff" stroke-opacity=".2"/>
+    <text x="20" y="28" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Salas de Juego &amp; Servidores</text>
+    <text x="20" y="44" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">Asignación dinámica de recursos</text>
+
+    <!-- Sala 1 -->
+    <rect x="18" y="56" width="244" height="38" rx="6" fill="#171233"/>
+    <text x="30" y="72" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Arena Central A · 10/10 Players</text>
+    <text x="30" y="84" fill="#5ce1e6" font-family="monospace" font-size="8">Server 128 tick · Latencia 14ms</text>
+    <circle cx="242" cy="75" r="5" fill="#5ce1e6"/>
+
+    <!-- Sala 2 -->
+    <rect x="18" y="100" width="244" height="38" rx="6" fill="#171233"/>
+    <text x="30" y="116" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Arena B (Práctica) · 6/10 Players</text>
+    <text x="30" y="128" fill="#f4b85c" font-family="monospace" font-size="8">Modo Scrim · Esperando rivales</text>
+    <circle cx="242" cy="119" r="5" fill="#f4b85c"/>
+
+    <!-- Panel Leaderboard & Perfiles de Jugador -->
+    <rect x="0" y="166" width="280" height="150" rx="14" fill="#0d0a20" stroke="#a783ff" stroke-opacity=".2"/>
+    <text x="20" y="192" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Rankings &amp; Perfiles de Jugadores</text>
+    <text x="20" y="208" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">Cálculo de MMR y estadísticas</text>
+
+    <!-- Top Jugador 1 -->
+    <rect x="18" y="222" width="244" height="34" rx="6" fill="#171233"/>
+    <circle cx="34" cy="239" r="9" fill="#f4b85c" opacity=".2"/>
+    <text x="34" y="243" text-anchor="middle" fill="#f4b85c" font-family="monospace" font-size="9" font-weight="700">1</text>
+    <text x="52" y="238" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600">ShadowStriker</text>
+    <text x="52" y="249" fill="#8ca0b3" font-family="monospace" font-size="8">Winrate 72% · K/D 2.45</text>
+    <text x="246" y="243" text-anchor="end" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="10" font-weight="600">2.840 MMR</text>
+
+    <!-- Top Jugador 2 -->
+    <rect x="18" y="262" width="244" height="34" rx="6" fill="#171233"/>
+    <circle cx="34" cy="279" r="9" fill="#a783ff" opacity=".2"/>
+    <text x="34" y="283" text-anchor="middle" fill="#a783ff" font-family="monospace" font-size="9" font-weight="700">2</text>
+    <text x="52" y="278" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600">PhantomGhost</text>
+    <text x="52" y="289" fill="#8ca0b3" font-family="monospace" font-size="8">Winrate 68% · K/D 2.10</text>
+    <text x="246" y="283" text-anchor="end" fill="#a783ff" font-family="'DM Mono', monospace" font-size="10" font-weight="600">2.715 MMR</text>
+  </g>
+</svg>

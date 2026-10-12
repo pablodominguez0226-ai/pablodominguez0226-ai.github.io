@@ -1,12 +1,87 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
-  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#163249"/><stop offset="1" stop-color="#081522"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity=".35"/></filter></defs>
-  <rect x="70" y="42" width="580" height="410" rx="24" fill="url(#a)" stroke="#5ce1e6" stroke-opacity=".34" filter="url(#s)"/>
-  <rect x="70" y="42" width="580" height="54" rx="24" fill="#10283a"/><circle cx="104" cy="69" r="6" fill="#5ce1e6"/><circle cx="126" cy="69" r="6" fill="#5c8dff"/><circle cx="148" cy="69" r="6" fill="#a783ff"/>
-  <rect x="96" y="124" width="145" height="300" rx="14" fill="#091826"/><circle cx="168" cy="177" r="34" fill="#19394d"/><circle cx="168" cy="165" r="11" fill="#5ce1e6" opacity=".8"/><path d="M143 204c8-24 43-24 51 0" fill="#5ce1e6" opacity=".55"/>
-  <rect x="117" y="241" width="101" height="10" rx="5" fill="#5ce1e6" opacity=".7"/><rect x="129" y="264" width="76" height="7" rx="4" fill="#8096a8" opacity=".6"/>
-  <rect x="117" y="310" width="101" height="34" rx="9" fill="#5ce1e6" opacity=".15" stroke="#5ce1e6" stroke-opacity=".5"/><rect x="117" y="356" width="101" height="34" rx="9" fill="#15283a"/>
-  <rect x="266" y="124" width="358" height="82" rx="14" fill="#0c1d2c"/><rect x="286" y="145" width="120" height="12" rx="6" fill="#eef7ff" opacity=".8"/><rect x="286" y="169" width="210" height="7" rx="4" fill="#70869a"/><circle cx="575" cy="164" r="20" fill="#5ce1e6" opacity=".16" stroke="#5ce1e6"/>
-  <rect x="266" y="225" width="170" height="199" rx="14" fill="#0c1d2c"/><rect x="456" y="225" width="168" height="199" rx="14" fill="#0c1d2c"/>
-  <path d="M292 370l30-35 27 12 31-64 28 28" fill="none" stroke="#5ce1e6" stroke-width="4"/><circle cx="380" cy="283" r="5" fill="#5ce1e6"/>
-  <rect x="478" y="252" width="123" height="9" rx="5" fill="#eef7ff" opacity=".7"/><rect x="478" y="280" width="96" height="7" rx="4" fill="#6f8497"/><rect x="478" y="322" width="123" height="48" rx="10" fill="#5c8dff" opacity=".13" stroke="#5c8dff" stroke-opacity=".5"/>
+  <defs>
+    <linearGradient id="bg-fitconn" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#122538"/>
+      <stop offset="1" stop-color="#07131e"/>
+    </linearGradient>
+    <linearGradient id="amber-glow" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#f4b85c"/>
+      <stop offset="1" stop-color="#5ce1e6"/>
+    </linearGradient>
+    <filter id="shadow-fitconn">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <!-- Shell principal -->
+  <rect x="64" y="44" width="592" height="420" rx="24" fill="url(#bg-fitconn)" stroke="#5ce1e6" stroke-opacity=".35" filter="url(#shadow-fitconn)"/>
+
+  <!-- Barra superior -->
+  <rect x="64" y="44" width="592" height="54" rx="24" fill="#0c1d2c"/>
+  <circle cx="98" cy="71" r="6" fill="#5ce1e6"/>
+  <circle cx="118" cy="71" r="6" fill="#5c8dff"/>
+  <circle cx="138" cy="71" r="6" fill="#f4b85c"/>
+  <text x="170" y="75" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="11" letter-spacing="1">FITCONNECTION // PLATAFORMA DE ENTRENADORES &amp; ATLETAS</text>
+  <rect x="500" y="60" width="132" height="22" rx="6" fill="#5ce1e6" opacity=".15"/>
+  <text x="566" y="75" text-anchor="middle" fill="#5ce1e6" font-family="monospace" font-size="9">SERVICIOS &amp; PAGOS</text>
+
+  <!-- Panel Izquierdo: Perfil del Entrenador -->
+  <g transform="translate(90, 116)">
+    <rect x="0" y="0" width="220" height="316" rx="14" fill="#091826" stroke="#5ce1e6" stroke-opacity=".2"/>
+    <circle cx="110" cy="56" r="30" fill="#152e42"/>
+    <circle cx="110" cy="46" r="10" fill="#5ce1e6" opacity=".8"/>
+    <path d="M88 80c4-18 40-18 44 0" fill="#5ce1e6" opacity=".6"/>
+    
+    <text x="110" y="104" text-anchor="middle" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Rodrigo Gómez</text>
+    <text x="110" y="118" text-anchor="middle" fill="#8096a8" font-family="monospace" font-size="9">Preparador Físico Certificado</text>
+
+    <!-- Calificaciones y Valoración -->
+    <rect x="20" y="132" width="180" height="42" rx="8" fill="#0f2334"/>
+    <text x="32" y="150" fill="#8096a8" font-family="monospace" font-size="8">CALIFICACIÓN</text>
+    <text x="32" y="166" fill="#f4b85c" font-family="'DM Mono', monospace" font-size="12" font-weight="700">★ 4.9 / 5.0</text>
+    <text x="130" y="150" fill="#8096a8" font-family="monospace" font-size="8">ATLETAS</text>
+    <text x="130" y="166" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="12" font-weight="700">32 activos</text>
+
+    <!-- Estado de disponibilidad -->
+    <rect x="20" y="184" width="180" height="50" rx="8" fill="#0f2334"/>
+    <text x="32" y="202" fill="#8096a8" font-family="monospace" font-size="8">ESPECIALIDAD</text>
+    <text x="32" y="220" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Fuerza &amp; Readaptación</text>
+
+    <!-- Botón Conectar -->
+    <rect x="20" y="246" width="180" height="34" rx="8" fill="#5ce1e6" opacity=".2" stroke="#5ce1e6" stroke-opacity=".5"/>
+    <text x="110" y="267" text-anchor="middle" fill="#5ce1e6" font-family="monospace" font-size="9" font-weight="600">SOLICITAR CONEXIÓN</text>
+  </g>
+
+  <!-- Panel Derecho: Agenda, Sesiones y Pasarela de Pagos -->
+  <g transform="translate(330, 116)">
+    <!-- Agenda de Turnos y Sesiones -->
+    <rect x="0" y="0" width="300" height="150" rx="14" fill="#091826" stroke="#5ce1e6" stroke-opacity=".2"/>
+    <text x="20" y="28" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Gestión de Sesiones &amp; Turnos</text>
+    <text x="20" y="44" fill="#8096a8" font-family="'DM Mono', monospace" font-size="9">Coordinación de entrenamientos</text>
+
+    <!-- Sesión 1 -->
+    <rect x="18" y="56" width="264" height="38" rx="6" fill="#0f2334"/>
+    <text x="30" y="72" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Martes 10:00 — Evaluación Funcional</text>
+    <text x="30" y="84" fill="#5ce1e6" font-family="monospace" font-size="8">Atleta: Martín P. · Confirmado</text>
+    <circle cx="262" cy="75" r="5" fill="#5ce1e6"/>
+
+    <!-- Sesión 2 -->
+    <rect x="18" y="100" width="264" height="38" rx="6" fill="#0f2334"/>
+    <text x="30" y="116" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Jueves 18:30 — Plan Hipertrofia</text>
+    <text x="30" y="128" fill="#f4b85c" font-family="monospace" font-size="8">Atleta: Sofía V. · Pendiente de pago</text>
+    <circle cx="262" cy="119" r="5" fill="#f4b85c"/>
+
+    <!-- Pasarela de Pagos & Transacciones -->
+    <rect x="0" y="166" width="300" height="150" rx="14" fill="#091826" stroke="#5ce1e6" stroke-opacity=".2"/>
+    <text x="20" y="192" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Pasarela de Pagos &amp; Liquidaciones</text>
+    <text x="20" y="208" fill="#8096a8" font-family="'DM Mono', monospace" font-size="9">Transacciones seguras e historial</text>
+
+    <rect x="18" y="222" width="264" height="38" rx="6" fill="#0f2334"/>
+    <text x="30" y="238" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Plan Mensual Personalizado (4 semanas)</text>
+    <text x="30" y="250" fill="#5ce1e6" font-family="monospace" font-size="8">Pago Acreditado · ID #FC-8924</text>
+    <text x="264" y="244" text-anchor="end" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="11" font-weight="600">$ 45.000</text>
+
+    <rect x="18" y="270" width="264" height="32" rx="6" fill="#5c8dff" opacity=".15" stroke="#5c8dff" stroke-opacity=".4"/>
+    <text x="150" y="290" text-anchor="middle" fill="#5c8dff" font-family="monospace" font-size="9" font-weight="600">VER DETALLE DE LIQUIDACIÓN</text>
+  </g>
 </svg>

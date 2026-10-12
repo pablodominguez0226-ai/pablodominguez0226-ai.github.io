@@ -13,7 +13,7 @@
     <meta property="og:title" content="Pablo Dominguez | Analista Universitario en Sistemas de Información | Data &amp; AI Solutions" />
     <meta
       property="og:description"
-      content="Analista Universitario en Sistemas (UTN FRM). Soluciones en software, modelado relacional, ciencia de datos, inteligencia artificial (Prompt Engineering, APIs LLM) y cloud."
+      content="Analista Universitario en Sistemas de Información (UTN FRM). Soluciones en software, modelado relacional, ciencia de datos, inteligencia artificial (Prompt Engineering, APIs LLM) y cloud."
     />
     <meta property="og:image" content="assets/og-cover.svg" />
     <title>Pablo Dominguez | Analista Universitario en Sistemas de Información | Data &amp; AI Solutions</title>
@@ -43,22 +43,43 @@
         </button>
 
         <nav id="site-nav" class="site-nav" aria-label="Navegación principal" data-nav>
-          <a href="#inicio">Inicio</a>
-          <a href="#sobre-mi">Sobre mí</a>
-          <a href="#proyectos">Proyectos</a>
-          <a href="#competencias">Competencias</a>
-          <a href="#certificaciones">Certificaciones</a>
-          <a href="#formacion">Formación</a>
-          <a href="#contacto">Contacto</a>
+          <a href="#inicio" data-i18n="nav.home">Inicio</a>
+          <a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a>
+          <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+          <a href="#competencias" data-i18n="nav.skills">Competencias</a>
+          <a href="#certificaciones" data-i18n="nav.certifications">Certificaciones</a>
+          <a href="#formacion" data-i18n="nav.education">Formación</a>
+          <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+          <button
+            class="button button-small"
+            type="button"
+            data-cover-trigger
+            data-i18n="nav.coverLetter"
+          >
+            Carta de Presentación
+          </button>
           <a
             class="button button-small cv-link"
             href="cv.pdf"
             data-cv-link
             target="_blank"
             rel="noreferrer"
+            data-i18n="nav.cv"
           >
             Descargar CV
           </a>
+          <div class="lang-switch-wrapper">
+            <button
+              class="lang-switch"
+              type="button"
+              data-lang-toggle
+              aria-label="Cambiar idioma / Switch language"
+            >
+              <span class="lang-opt is-active" data-lang-val="es">ES</span>
+              <span class="lang-sep">/</span>
+              <span class="lang-opt" data-lang-val="en">EN</span>
+            </button>
+          </div>
         </nav>
       </div>
     </header>
@@ -69,19 +90,42 @@
         <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
         <div class="container hero-grid">
           <div class="hero-copy reveal">
-            <p class="eyebrow"><span></span> Mendoza, Argentina · Analista Universitario en Sistemas | Data &amp; AI Solutions</p>
-            <h1>
-              Analista Universitario en Sistemas
+            <p class="eyebrow" data-i18n="hero.eyebrow">
+              <span></span> Mendoza, Argentina · Analista Universitario en Sistemas de Información | Data &amp; AI Solutions
+            </p>
+            <h1 data-i18n="hero.title">
+              Analista Universitario en Sistemas de Información
               <span class="gradient-text">| Data &amp; AI Solutions</span>
             </h1>
-            <p class="hero-role">Analista Universitario en Sistemas (UTN FRM) · Estudiante avanzado de Ingeniería · Data, AI &amp; Cloud</p>
-            <p class="hero-lead">
-              Analista Universitario en Sistemas de Información (título universitario obtenido · UTN FRM) y estudiante avanzado de Ingeniería en Sistemas de Información. Diseño soluciones de software, arquitecturas relacionales y productos digitales, potenciados por la manipulación y aprovechamiento de Inteligencia Artificial (Prompt Engineering, integración de APIs de LLMs y automatización) para resolver problemas técnicos y de negocio con impacto medible.
+            <p class="hero-role" data-i18n="hero.role">
+              Analista Universitario en Sistemas de Información (Título Obtenido · UTN FRM) · Estudiante Avanzado de Ingeniería · Data &amp; AI Solutions
+            </p>
+            <p class="hero-lead" data-i18n="hero.lead">
+              Analista Universitario en Sistemas de Información (título oficial obtenido · UTN FRM) y estudiante avanzado de Ingeniería en Sistemas de Información. Especializado en diseño de software, modelado relacional y soluciones analíticas, potenciado por una capacidad avanzada en manipulación y aprovechamiento de Inteligencia Artificial (Prompt Engineering, integración de APIs de LLMs y automatización de flujos de trabajo) para resolver problemas técnicos y de negocio complejos con máxima eficiencia e impacto medible.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↘</span></a>
-              <a class="button button-ghost" href="cv.pdf" target="_blank" rel="noreferrer">Descargar CV <span aria-hidden="true">↓</span></a>
-              <a class="button button-ghost" href="https://github.com/pablodominguez0226-ai" target="_blank" rel="noreferrer">
+              <a class="button button-primary" href="#proyectos" data-i18n="hero.btnProjects">
+                Ver proyectos <span aria-hidden="true">↘</span>
+              </a>
+              <button class="button button-ghost" type="button" data-cover-trigger data-i18n="hero.btnCover">
+                Carta de Presentación <span aria-hidden="true">✉</span>
+              </button>
+              <a
+                class="button button-ghost"
+                href="cv.pdf"
+                target="_blank"
+                rel="noreferrer"
+                data-cv-link
+                data-i18n="hero.btnCv"
+              >
+                Descargar CV <span aria-hidden="true">↓</span>
+              </a>
+              <a
+                class="button button-ghost"
+                href="https://github.com/pablodominguez0226-ai"
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub <span aria-hidden="true">↗</span>
               </a>
               <a
@@ -98,49 +142,51 @@
           <aside class="hero-panel reveal" aria-label="Resumen profesional">
             <div class="panel-top">
               <span class="status-dot" aria-hidden="true"></span>
-              <span>Perfil profesional</span>
+              <span data-i18n="hero.panelStatus">Perfil profesional</span>
               <span class="panel-code">PD / UTN</span>
             </div>
-            <p class="panel-label">ENFOQUE</p>
-            <p class="panel-statement">
-              Convertir necesidades complejas en sistemas claros, funcionales y potenciados por IA.
+            <p class="panel-label" data-i18n="hero.panelFocus">ENFOQUE</p>
+            <p class="panel-statement" data-i18n="hero.panelStatement">
+              Transformar requerimientos y problemas complejos en sistemas robustos, optimizados y potenciados por IA.
             </p>
             <div class="signal-list">
-              <div><span>01</span><p><strong>Analista Universitario en Sistemas</strong> (Título obtenido · UTN FRM)</p></div>
-              <div><span>02</span><p><strong>Ingeniería en Sistemas</strong> (Estudiante avanzado en curso)</p></div>
-              <div><span>03</span><p><strong>Data &amp; AI Solutions</strong> (Prompt Engineering, APIs LLM &amp; Cloud)</p></div>
+              <div><span>01</span><p data-i18n="hero.panelSignal1"><strong>Analista Universitario en Sistemas</strong> (Título oficial obtenido · UTN FRM)</p></div>
+              <div><span>02</span><p data-i18n="hero.panelSignal2"><strong>Ingeniería en Sistemas</strong> (Estudiante avanzado en curso · UTN FRM)</p></div>
+              <div><span>03</span><p data-i18n="hero.panelSignal3"><strong>Data &amp; AI Solutions</strong> (Prompt Engineering, APIs LLM &amp; Automatización)</p></div>
             </div>
-            <div class="panel-footer">
-              <span>ANÁLISIS</span><i></i><span>DATOS &amp; IA</span><i></i><span>DESARROLLO</span>
+            <div class="panel-footer" data-i18n="hero.panelFooter">
+              <span>SISTEMAS</span><i></i><span>DATOS &amp; IA</span><i></i><span>ARQUITECTURA</span>
             </div>
           </aside>
         </div>
-        <div class="container scroll-cue" aria-hidden="true"><span></span> Explorar portfolio</div>
+        <div class="container scroll-cue" aria-hidden="true" data-i18n="hero.scrollCue">
+          <span></span> Explorar portfolio
+        </div>
       </section>
 
       <section id="sobre-mi" class="section section-lined">
         <div class="container split-heading reveal">
           <div>
-            <p class="section-index">01 / SOBRE MÍ</p>
-            <h2>Del problema a la solución integral.</h2>
+            <p class="section-index" data-i18n="about.index">01 / SOBRE MÍ</p>
+            <h2 data-i18n="about.title">Del problema a la solución integral.</h2>
           </div>
           <div class="about-copy">
-            <p class="lead-paragraph">
-              Analista Universitario en Sistemas de Información y estudiante avanzado de Ingeniería en Sistemas de Información (UTN FRM), enfocado en la convergencia entre desarrollo de software, análisis de datos y soluciones con Inteligencia Artificial.
+            <p class="lead-paragraph" data-i18n="about.lead">
+              Analista Universitario en Sistemas de Información (título universitario oficial obtenido) y estudiante avanzado de Ingeniería en Sistemas de Información en la UTN Facultad Regional Mendoza, enfocado en la convergencia entre desarrollo de software, análisis de datos y soluciones con Inteligencia Artificial aplicada.
             </p>
-            <p>
-              Trabajo sobre el ciclo de vida completo de las aplicaciones: relevamiento de requerimientos funcionales, historias de usuario, modelado formal con UML (casos de uso, diagramas de clases y secuencia), diseño de bases de datos relacionales normalizadas e implementación frontend y backend modular con altos estándares de calidad y mantenibilidad.
+            <p data-i18n="about.p1">
+              Trabajo sobre el ciclo de vida completo de las aplicaciones: relevamiento riguroso de requerimientos funcionales, especificación mediante historias de usuario, modelado formal con UML (casos de uso, diagramas de clases y de secuencia), diseño y normalización de bases de datos relacionales (1FN a 3FN) e implementación frontend y backend modular con altos estándares de consistencia, mantenibilidad y calidad.
             </p>
-            <p>
-              Cuento con una capacidad destacada para manipular y aprovechar herramientas de Inteligencia Artificial moderna: diseño y optimización de prompts (Prompt Engineering avanzado), integración de APIs de modelos de lenguaje (LLMs como OpenAI, Gemini y Claude) y automatización de flujos de trabajo técnicos. Esto me permite acelerar la resolución de incidencias complejas, optimizar la toma de decisiones basada en datos y entregar soluciones de alto valor técnico y comercial.
+            <p data-i18n="about.p2">
+              Cuento con una capacidad destacada para manipular y maximizar el aprovechamiento de herramientas de Inteligencia Artificial moderna: diseño y optimización sistemática de prompts (Prompt Engineering avanzado con técnicas Few-shot y Chain-of-Thought), integración y consumo directo de APIs de modelos de lenguaje (LLMs como OpenAI, Gemini y Claude) y automatización de flujos de trabajo técnicos. Esta destreza me permite acelerar la resolución y triage de incidencias complejas, optimizar consultas de datos y entregar soluciones de alto valor técnico y comercial con agilidad superior.
             </p>
-            <p>
-              Mi base académica se complementa con certificaciones universitarias en Ciencia de Datos con Python, Analista de Datos (SQL y Power BI) y Cloud Computing con Microsoft Azure, junto con mi próxima meta formativa: la Tecnicatura Universitaria en Ciencia de Datos.
+            <p data-i18n="about.p3">
+              Mi base académica se complementa con certificaciones universitarias en Ciencia de Datos con Python, Analista de Datos (SQL y Power BI), Power BI &amp; Business Intelligence, Cloud Computing con Microsoft Azure y Arquitectura Cloud, articuladas con mi próxima meta formativa: la Tecnicatura Universitaria en Ciencia de Datos.
             </p>
             <div class="about-tags" aria-label="Áreas de trabajo">
-              <span>Analista Universitario</span><span>Ingeniería en Sistemas</span><span>IA Aplicada &amp; LLMs</span>
+              <span>Analista Universitario</span><span>Ingeniería en Sistemas</span><span>Manipulación de IA &amp; LLMs</span>
               <span>Prompt Engineering</span><span>Python para Datos</span><span>SQL Avanzado</span>
-              <span>Power BI &amp; DAX</span><span>Modelado Relacional</span><span>Microsoft Azure</span><span>Automatización</span>
+              <span>Modelado Relacional (1FN-3FN)</span><span>Power BI &amp; DAX</span><span>Docker &amp; Cloud</span><span>Automatización</span>
             </div>
           </div>
         </div>
@@ -150,11 +196,11 @@
         <div class="container">
           <div class="section-heading reveal">
             <div>
-              <p class="section-index">02 / PROYECTOS</p>
-              <h2>Sistemas que toman forma.</h2>
+              <p class="section-index" data-i18n="projects.index">02 / PROYECTOS</p>
+              <h2 data-i18n="projects.title">Sistemas que toman forma.</h2>
             </div>
-            <p>
-              Sistemas contables, plataformas de gestión, soluciones con IA y arquitecturas de datos construidos con criterio de ingeniería.
+            <p data-i18n="projects.subtitle">
+              Sistemas comerciales y de gestión, aplicaciones web responsivas, soluciones con IA y pipelines analíticos construidos con criterio de ingeniería.
             </p>
           </div>
           <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
@@ -165,10 +211,12 @@
         <div class="container">
           <div class="section-heading reveal">
             <div>
-              <p class="section-index">03 / COMPETENCIAS</p>
-              <h2>Capacidades conectadas.</h2>
+              <p class="section-index" data-i18n="skills.index">03 / COMPETENCIAS</p>
+              <h2 data-i18n="skills.title">Capacidades conectadas.</h2>
             </div>
-            <p>Herramientas y prácticas aplicadas en formación y proyectos, sin escalas arbitrarias.</p>
+            <p data-i18n="skills.subtitle">
+              Herramientas y prácticas de ingeniería aplicadas en formación universitaria, certificaciones y proyectos reales.
+            </p>
           </div>
           <div id="skills-grid" class="skills-grid"></div>
         </div>
@@ -178,10 +226,12 @@
         <div class="container">
           <div class="section-heading reveal">
             <div>
-              <p class="section-index">04 / CERTIFICACIONES</p>
-              <h2>Formación complementaria.</h2>
+              <p class="section-index" data-i18n="certifications.index">04 / CERTIFICACIONES</p>
+              <h2 data-i18n="certifications.title">Formación complementaria.</h2>
             </div>
-            <p>Ciencia de datos, analítica avanzada, Business Intelligence y soluciones cloud con aval universitario.</p>
+            <p data-i18n="certifications.subtitle">
+              Ciencia de datos, analítica avanzada, Business Intelligence y soluciones cloud con aval universitario y corporativo.
+            </p>
           </div>
           <div id="certifications-grid" class="certifications-grid"></div>
         </div>
@@ -191,46 +241,57 @@
         <div class="container">
           <div class="section-heading reveal">
             <div>
-              <p class="section-index">05 / FORMACIÓN</p>
-              <h2>Base académica y trayectoria universitaria.</h2>
+              <p class="section-index" data-i18n="education.index">05 / FORMACIÓN</p>
+              <h2 data-i18n="education.title">Base académica y trayectoria universitaria.</h2>
             </div>
-            <p>Formación superior rigurosa en ingeniería de software, sistemas de información y analítica de datos.</p>
+            <p data-i18n="education.subtitle">
+              Formación superior rigurosa en ingeniería de software, sistemas de información y analítica de datos.
+            </p>
           </div>
           
           <article class="education-card reveal">
-            <div class="education-date">2021 — ACTUALIDAD</div>
+            <div class="education-date" data-i18n="education.card1Date">TÍTULO OFICIAL OBTENIDO</div>
             <div>
-              <p class="education-type">TÍTULO OBTENIDO &amp; CARRERA DE GRADO EN CURSO</p>
-              <h3>Analista Universitario en Sistemas de Información</h3>
-              <p>Universidad Tecnológica Nacional · Facultad Regional Mendoza (UTN FRM)</p>
+              <p class="education-type" data-i18n="education.card1Type">EDUCACIÓN SUPERIOR UNIVERSITARIA · TÍTULO OBTENIDO</p>
+              <h3 data-i18n="education.card1Title">Analista Universitario en Sistemas de Información</h3>
+              <p data-i18n="education.card1Inst">Universidad Tecnológica Nacional · Facultad Regional Mendoza (UTN FRM)</p>
               <div class="intermediate-degree">
                 <span aria-hidden="true">✓</span>
                 <div>
-                  <strong>Título Universitario Oficial Obtenido</strong>
-                  <p>Título intermedio oficial de la carrera, acreditando competencias plenas en análisis funcional, diseño de sistemas, modelado relacional y desarrollo de software.</p>
-                </div>
-              </div>
-              <div class="intermediate-degree" style="margin-top: 1.25rem; border-left-color: var(--blue); background: rgba(92, 141, 255, 0.05);">
-                <span aria-hidden="true" style="color: var(--blue);">↳</span>
-                <div>
-                  <strong style="color: var(--text);">Ingeniería en Sistemas de Información — Carrera de Grado</strong>
-                  <p>Estudiante avanzado en curso, cursando las instancias superiores y de especialización en UTN FRM.</p>
+                  <strong data-i18n="education.card1BadgeTitle">Título Universitario Oficial Obtenido</strong>
+                  <p data-i18n="education.card1BadgeText">Título intermedio oficial de la carrera de grado, acreditando competencias plenas en análisis funcional, diseño de sistemas, modelado relacional de datos y desarrollo de software con criterio de ingeniería.</p>
                 </div>
               </div>
             </div>
           </article>
 
           <article class="education-card reveal">
-            <div class="education-date">EN FORMACIÓN · PRÓXIMA A CURSAR</div>
+            <div class="education-date" data-i18n="education.card2Date">2021 — ACTUALIDAD · EN CURSO</div>
             <div>
-              <p class="education-type">PRÓXIMA META ACADÉMICA · EDUCACIÓN SUPERIOR</p>
-              <h3>Tecnicatura Universitaria en Ciencia de Datos</h3>
-              <p>Universidad Tecnológica Nacional (UTN)</p>
+              <p class="education-type" data-i18n="education.card2Type">CARRERA DE GRADO UNIVERSITARIA · ESTUDIANTE AVANZADO</p>
+              <h3 data-i18n="education.card2Title">Ingeniería en Sistemas de Información</h3>
+              <p data-i18n="education.card2Inst">Universidad Tecnológica Nacional · Facultad Regional Mendoza (UTN FRM)</p>
+              <div class="intermediate-degree" style="border-left-color: var(--blue); background: rgba(92, 141, 255, 0.05);">
+                <span aria-hidden="true" style="color: var(--blue);">↳</span>
+                <div>
+                  <strong data-i18n="education.card2BadgeTitle">Estudiante Avanzado / En Curso</strong>
+                  <p data-i18n="education.card2BadgeText">Cursando las instancias superiores de la carrera de grado en UTN FRM, profundizando en arquitecturas escalables, sistemas distribuidos, seguridad de la información y dirección estratégica de proyectos tecnológicos.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-card reveal">
+            <div class="education-date" data-i18n="education.card3Date">PRÓXIMA A INICIAR</div>
+            <div>
+              <p class="education-type" data-i18n="education.card3Type">EDUCACIÓN SUPERIOR UNIVERSITARIA · PRÓXIMA META</p>
+              <h3 data-i18n="education.card3Title">Tecnicatura Universitaria en Ciencia de Datos</h3>
+              <p data-i18n="education.card3Inst">Universidad Tecnológica Nacional (UTN)</p>
               <div class="intermediate-degree" style="border-left-color: var(--violet); background: rgba(167, 131, 255, 0.05);">
                 <span aria-hidden="true" style="color: var(--violet);">★</span>
                 <div>
-                  <strong>Especialización en Analítica, Modelado Predictivo e Inteligencia de Datos</strong>
-                  <p>Próxima meta académica enfocada en pipelines de datos a gran escala, machine learning aplicado, analítica predictiva y soporte cuantitativo a la toma de decisiones.</p>
+                  <strong data-i18n="education.card3BadgeTitle">Especialización en Analítica, Modelado Predictivo e Inteligencia de Datos</strong>
+                  <p data-i18n="education.card3BadgeText">Próxima meta formativa orientada al diseño de pipelines de datos masivos, machine learning aplicado, minería de datos y analítica cuantitativa para soporte analítico en la toma de decisiones.</p>
                 </div>
               </div>
             </div>
@@ -241,17 +302,17 @@
       <section id="contacto" class="section contact-section">
         <div class="container contact-grid">
           <div class="reveal">
-            <p class="section-index">06 / CONTACTO</p>
-            <h2>Hablemos de sistemas, productos y oportunidades.</h2>
+            <p class="section-index" data-i18n="contact.index">06 / CONTACTO</p>
+            <h2 data-i18n="contact.title">Hablemos de sistemas, productos y oportunidades.</h2>
           </div>
           <div class="contact-panel reveal">
-            <p>
+            <p data-i18n="contact.p">
               Disponible para posiciones como Analista de Sistemas, Analista de Datos, Desarrollador de Software, o roles orientados a Soluciones de Datos, IA Aplicada y Cloud.
             </p>
             <a class="contact-email" href="mailto:pablodominguez0226@gmail.com">
               pablodominguez0226@gmail.com
             </a>
-            <button class="copy-button" type="button" data-copy-email>
+            <button class="copy-button" type="button" data-copy-email data-i18n="contact.copyBtn">
               Copiar correo <span aria-hidden="true">⧉</span>
             </button>
             <div class="contact-links">
@@ -271,14 +332,21 @@
     <footer class="site-footer">
       <div class="container">
         <p>© <span data-year></span> Pablo Dominguez</p>
-        <p>Analista Universitario en Sistemas de Información · Ingeniería en Sistemas (UTN FRM)</p>
-        <a href="#inicio">Volver arriba ↑</a>
+        <p data-i18n="footer.role">Analista Universitario en Sistemas de Información · Ingeniería en Sistemas (UTN FRM)</p>
+        <a href="#inicio" data-i18n="footer.backTop">Volver arriba ↑</a>
       </div>
     </footer>
 
+    <!-- Modal Caso de Estudio de Proyecto -->
     <dialog class="case-dialog" data-case-dialog aria-labelledby="case-title">
       <button class="dialog-close" type="button" data-dialog-close aria-label="Cerrar caso de estudio">×</button>
       <div data-dialog-content></div>
+    </dialog>
+
+    <!-- Modal Carta de Presentación / Cover Letter -->
+    <dialog class="case-dialog cover-dialog" data-cover-dialog aria-labelledby="cover-title">
+      <button class="dialog-close" type="button" data-cover-close aria-label="Cerrar carta de presentación">×</button>
+      <div data-cover-content></div>
     </dialog>
 
     <div class="toast" role="status" aria-live="polite" data-toast></div>
