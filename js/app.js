@@ -232,18 +232,21 @@ function setupContact() {
     }
   });
 
-  const cvLink = document.querySelector("[data-cv-link]");
-  if (profile.cvUrl) {
-    cvLink.href = profile.cvUrl;
-    cvLink.classList.remove("is-disabled");
-    cvLink.removeAttribute("aria-disabled");
-    cvLink.setAttribute("download", "");
-  } else {
-    cvLink.addEventListener("click", (event) => {
-      event.preventDefault();
-      showToast("CV pendiente de cargar");
-    });
-  }
+  const cvLinks = document.querySelectorAll("[data-cv-link], a[href*='cv.pdf']");
+  cvLinks.forEach((link) => {
+    if (profile.cvUrl) {
+      link.href = profile.cvUrl;
+      link.classList.remove("is-disabled");
+      link.removeAttribute("aria-disabled");
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noreferrer");
+    } else {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        showToast("CV pendiente de cargar");
+      });
+    }
+  });
 }
 
 renderProjects();

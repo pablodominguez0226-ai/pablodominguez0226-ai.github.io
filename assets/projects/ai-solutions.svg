@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+  <defs>
+    <linearGradient id="bg-ai" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0a1d3b"/>
+      <stop offset="1" stop-color="#040c18"/>
+    </linearGradient>
+    <linearGradient id="ai-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5c8dff"/>
+      <stop offset="1" stop-color="#5ce1e6"/>
+    </linearGradient>
+    <filter id="shadow-ai">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <!-- Shell principal -->
+  <rect x="64" y="44" width="592" height="420" rx="24" fill="url(#bg-ai)" stroke="#5c8dff" stroke-opacity=".35" filter="url(#shadow-ai)"/>
+
+  <!-- Barra superior -->
+  <rect x="64" y="44" width="592" height="54" rx="24" fill="#0c182c"/>
+  <circle cx="98" cy="71" r="6" fill="#5c8dff"/>
+  <circle cx="118" cy="71" r="6" fill="#5ce1e6"/>
+  <circle cx="138" cy="71" r="6" fill="#a783ff"/>
+  <text x="170" y="75" fill="#5c8dff" font-family="'DM Mono', monospace" font-size="11" letter-spacing="1">AI &amp; AUTOMATION // ORQUESTACIÓN DE LLMS &amp; WORKFLOWS</text>
+  <rect x="524" y="60" width="108" height="22" rx="6" fill="#5c8dff" opacity=".15"/>
+  <text x="578" y="75" text-anchor="middle" fill="#5c8dff" font-family="monospace" font-size="9">API CONNECTED</text>
+
+  <!-- Panel Izquierdo: Pipeline de Prompt Engineering y Modelo -->
+  <g transform="translate(90, 116)">
+    <rect x="0" y="0" width="260" height="316" rx="14" fill="#081426" stroke="#5c8dff" stroke-opacity=".2"/>
+    
+    <!-- Header Prompt Box -->
+    <text x="20" y="30" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Prompt Engineering Pipeline</text>
+    <text x="20" y="46" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">Few-shot + Context Injection + CoT</text>
+
+    <!-- Caja de Contexto / System Prompt -->
+    <rect x="16" y="60" width="228" height="64" rx="8" fill="#0d213a" stroke="#5ce1e6" stroke-opacity=".2"/>
+    <text x="26" y="78" fill="#5ce1e6" font-family="monospace" font-size="9">SYSTEM PROMPT // ROLE: ANALYST</text>
+    <text x="26" y="96" fill="#f2f7fc" font-family="'DM Mono', monospace" font-size="10">"Parse data schema, optimize query,</text>
+    <text x="26" y="110" fill="#f2f7fc" font-family="'DM Mono', monospace" font-size="10">return structured JSON output."</text>
+
+    <!-- Conector de flujo -->
+    <line x1="130" y1="124" x2="130" y2="148" stroke="#5c8dff" stroke-width="2" stroke-dasharray="3 3"/>
+    <circle cx="130" cy="136" r="3" fill="#5ce1e6"/>
+
+    <!-- LLM Model Node -->
+    <rect x="16" y="148" width="228" height="66" rx="8" fill="#0d213a" stroke="#5c8dff" stroke-opacity=".4"/>
+    <circle cx="40" cy="181" r="16" fill="#163458"/>
+    <path d="M34 181h12M40 175v12" stroke="#5ce1e6" stroke-width="2"/>
+    <text x="66" y="174" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">LLM Inference Engine</text>
+    <text x="66" y="190" fill="#5c8dff" font-family="'DM Mono', monospace" font-size="9">Latency: 280ms · Tokens: 412</text>
+    <text x="66" y="202" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="8">Hallucination Guard: Active</text>
+
+    <!-- Conector de flujo hacia output -->
+    <line x1="130" y1="214" x2="130" y2="238" stroke="#5c8dff" stroke-width="2" stroke-dasharray="3 3"/>
+
+    <!-- Output Estructurado -->
+    <rect x="16" y="238" width="228" height="64" rx="8" fill="#0d213a" stroke="#5ce1e6" stroke-opacity=".2"/>
+    <text x="26" y="256" fill="#a783ff" font-family="monospace" font-size="9">PARSED RESPONSE // JSON VALIDATED</text>
+    <text x="26" y="274" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">{ status: "optimized", speedup: "3.4x" }</text>
+    <text x="26" y="288" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="9">{ action: "auto_execute_pipeline" }</text>
+  </g>
+
+  <!-- Panel Derecho: Red Neuronal & Automatización de Tareas -->
+  <g transform="translate(370, 116)">
+    <!-- Diagrama de Red de Agentes / Nodos -->
+    <rect x="0" y="0" width="260" height="150" rx="14" fill="#081426" stroke="#5c8dff" stroke-opacity=".2"/>
+    <text x="20" y="28" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Arquitectura de Agentes &amp; Red</text>
+    <text x="20" y="44" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">Resolución colaborativa de incidencias</text>
+
+    <!-- Nodos interconectados -->
+    <g stroke="#1a3d66" stroke-width="2">
+      <line x1="50" y1="90" x2="130" y2="70"/>
+      <line x1="50" y1="90" x2="130" y2="120"/>
+      <line x1="130" y1="70" x2="210" y2="90"/>
+      <line x1="130" y1="120" x2="210" y2="90"/>
+    </g>
+    <!-- Nodos -->
+    <circle cx="50" cy="90" r="14" fill="#0d2542" stroke="#5c8dff" stroke-width="2"/>
+    <text x="50" y="94" text-anchor="middle" fill="#5ce1e6" font-family="monospace" font-size="9">IN</text>
+
+    <circle cx="130" cy="70" r="14" fill="#0d2542" stroke="#5ce1e6" stroke-width="2"/>
+    <text x="130" y="74" text-anchor="middle" fill="#5ce1e6" font-family="monospace" font-size="8">AGENT</text>
+
+    <circle cx="130" cy="120" r="14" fill="#0d2542" stroke="#a783ff" stroke-width="2"/>
+    <text x="130" y="124" text-anchor="middle" fill="#a783ff" font-family="monospace" font-size="8">EVAL</text>
+
+    <circle cx="210" cy="90" r="14" fill="#0d2542" stroke="#5c8dff" stroke-width="2"/>
+    <text x="210" y="94" text-anchor="middle" fill="#5c8dff" font-family="monospace" font-size="8">OUT</text>
+
+    <!-- Panel de Automatización de Workflows -->
+    <rect x="0" y="166" width="260" height="150" rx="14" fill="#081426" stroke="#5c8dff" stroke-opacity=".2"/>
+    <text x="20" y="194" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Workflows Automatizados</text>
+    <text x="20" y="210" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">Extracción, ETL y Diagnóstico</text>
+
+    <!-- Tareas activas -->
+    <rect x="18" y="224" width="224" height="32" rx="6" fill="#0d213a"/>
+    <circle cx="34" cy="240" r="4" fill="#5ce1e6"/>
+    <text x="46" y="244" fill="#f2f7fc" font-family="monospace" font-size="9">Sync &amp; Cleaning ETL Pipeline</text>
+    <text x="230" y="244" text-anchor="end" fill="#5ce1e6" font-family="monospace" font-size="8">DONE</text>
+
+    <rect x="18" y="264" width="224" height="32" rx="6" fill="#0d213a"/>
+    <circle cx="34" cy="280" r="4" fill="#5c8dff"/>
+    <text x="46" y="284" fill="#f2f7fc" font-family="monospace" font-size="9">SQL Query Performance Guard</text>
+    <text x="230" y="284" text-anchor="end" fill="#5c8dff" font-family="monospace" font-size="8">ACTIVE</text>
+  </g>
+</svg>

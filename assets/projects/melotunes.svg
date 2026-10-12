@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+  <defs>
+    <linearGradient id="bg-melo" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#181335"/>
+      <stop offset="1" stop-color="#090718"/>
+    </linearGradient>
+    <linearGradient id="wave-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#a783ff"/>
+      <stop offset="1" stop-color="#5ce1e6"/>
+    </linearGradient>
+    <filter id="shadow-melo">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <!-- Shell principal -->
+  <rect x="64" y="44" width="592" height="420" rx="24" fill="url(#bg-melo)" stroke="#a783ff" stroke-opacity=".35" filter="url(#shadow-melo)"/>
+
+  <!-- Barra superior -->
+  <rect x="64" y="44" width="592" height="54" rx="24" fill="#140f2d"/>
+  <circle cx="98" cy="71" r="6" fill="#a783ff"/>
+  <circle cx="118" cy="71" r="6" fill="#5ce1e6"/>
+  <circle cx="138" cy="71" r="6" fill="#5c8dff"/>
+  <text x="170" y="75" fill="#a783ff" font-family="'DM Mono', monospace" font-size="11" letter-spacing="1">MELOTUNES // STREAMING &amp; BASE DE DATOS RELACIONAL</text>
+  <rect x="520" y="60" width="112" height="22" rx="6" fill="#a783ff" opacity=".15"/>
+  <text x="576" y="75" text-anchor="middle" fill="#a783ff" font-family="monospace" font-size="9">SQL 3FN SCHEMA</text>
+
+  <!-- Panel Izquierdo: Reproductor y Catálogo -->
+  <g transform="translate(90, 116)">
+    <rect x="0" y="0" width="240" height="316" rx="14" fill="#0f0b24" stroke="#a783ff" stroke-opacity=".2"/>
+    
+    <!-- Cover del Álbum -->
+    <rect x="20" y="20" width="200" height="120" rx="10" fill="#1b1238"/>
+    <circle cx="120" cy="80" r="34" fill="#291a54"/>
+    <circle cx="120" cy="80" r="12" fill="#0f0b24" stroke="#a783ff" stroke-width="2"/>
+    <circle cx="120" cy="80" r="3" fill="#5ce1e6"/>
+
+    <!-- Track Info -->
+    <text x="20" y="162" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Nocturne in C-Minor</text>
+    <text x="20" y="178" fill="#8ca0b3" font-family="monospace" font-size="9">Cosmic Audio Collective · Hi-Fi Lossless</text>
+
+    <!-- Barra de reproducción & Onda sonora -->
+    <g transform="translate(20, 192)">
+      <!-- Ondas de ecualizador -->
+      <rect x="0" y="12" width="4" height="16" rx="2" fill="#a783ff"/>
+      <rect x="8" y="6" width="4" height="28" rx="2" fill="#a783ff"/>
+      <rect x="16" y="2" width="4" height="36" rx="2" fill="#a783ff"/>
+      <rect x="24" y="10" width="4" height="20" rx="2" fill="#a783ff"/>
+      <rect x="32" y="16" width="4" height="8" rx="2" fill="#a783ff"/>
+      <rect x="40" y="4" width="4" height="32" rx="2" fill="#a783ff"/>
+      <rect x="48" y="8" width="4" height="24" rx="2" fill="#a783ff"/>
+      <rect x="56" y="14" width="4" height="12" rx="2" fill="#5ce1e6"/>
+      <rect x="64" y="2" width="4" height="36" rx="2" fill="#5ce1e6"/>
+      <rect x="72" y="6" width="4" height="28" rx="2" fill="#5ce1e6"/>
+      <rect x="80" y="10" width="4" height="20" rx="2" fill="#5ce1e6"/>
+      <rect x="88" y="14" width="4" height="12" rx="2" fill="#5ce1e6"/>
+      <rect x="96" y="8" width="4" height="24" rx="2" fill="#5ce1e6"/>
+      <rect x="104" y="2" width="4" height="36" rx="2" fill="#5ce1e6"/>
+      <rect x="112" y="6" width="4" height="28" rx="2" fill="#5ce1e6"/>
+      <rect x="120" y="12" width="4" height="16" rx="2" fill="#5ce1e6"/>
+      <rect x="128" y="16" width="4" height="8" rx="2" fill="#5ce1e6"/>
+      <rect x="136" y="8" width="4" height="24" rx="2" fill="#5ce1e6"/>
+      <rect x="144" y="4" width="4" height="32" rx="2" fill="#5ce1e6"/>
+      <rect x="152" y="10" width="4" height="20" rx="2" fill="#5ce1e6"/>
+      <rect x="160" y="14" width="4" height="12" rx="2" fill="#5ce1e6"/>
+      <rect x="168" y="2" width="4" height="36" rx="2" fill="#5ce1e6"/>
+      <rect x="176" y="8" width="4" height="24" rx="2" fill="#5ce1e6"/>
+      <rect x="184" y="12" width="4" height="16" rx="2" fill="#5ce1e6"/>
+      <rect x="192" y="16" width="4" height="8" rx="2" fill="#5ce1e6"/>
+    </g>
+
+    <!-- Controles -->
+    <rect x="20" y="254" width="200" height="42" rx="8" fill="#1b1238"/>
+    <circle cx="120" cy="275" r="14" fill="#a783ff"/>
+    <polygon points="117,269 127,275 117,281" fill="#0f0b24"/>
+    <text x="44" y="279" fill="#8ca0b3" font-family="monospace" font-size="10">⏮</text>
+    <text x="190" y="279" fill="#8ca0b3" font-family="monospace" font-size="10">⏭</text>
+  </g>
+
+  <!-- Panel Derecho: Arquitectura del Modelo Relacional de Datos -->
+  <g transform="translate(350, 116)">
+    <rect x="0" y="0" width="280" height="316" rx="14" fill="#0f0b24" stroke="#a783ff" stroke-opacity=".2"/>
+    <text x="20" y="28" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Modelado Relacional (SQL Schema)</text>
+    <text x="20" y="44" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">Normalización 3FN &amp; Relaciones N:M</text>
+
+    <!-- Tabla: ARTISTAS -->
+    <rect x="16" y="58" width="118" height="74" rx="6" fill="#181135" stroke="#a783ff" stroke-opacity=".3"/>
+    <rect x="16" y="58" width="118" height="20" rx="6" fill="#24184c"/>
+    <text x="24" y="72" fill="#a783ff" font-family="monospace" font-size="9" font-weight="700">TBL_ARTISTAS</text>
+    <text x="24" y="90" fill="#5ce1e6" font-family="monospace" font-size="8">PK id_artista</text>
+    <text x="24" y="104" fill="#8ca0b3" font-family="monospace" font-size="8">nombre, bio</text>
+    <text x="24" y="118" fill="#8ca0b3" font-family="monospace" font-size="8">genero_id (FK)</text>
+
+    <!-- Tabla: ALBUMES -->
+    <rect x="146" y="58" width="118" height="74" rx="6" fill="#181135" stroke="#5ce1e6" stroke-opacity=".3"/>
+    <rect x="146" y="58" width="118" height="20" rx="6" fill="#102e3b"/>
+    <text x="154" y="72" fill="#5ce1e6" font-family="monospace" font-size="9" font-weight="700">TBL_ALBUMES</text>
+    <text x="154" y="90" fill="#5ce1e6" font-family="monospace" font-size="8">PK id_album</text>
+    <text x="154" y="104" fill="#8ca0b3" font-family="monospace" font-size="8">FK id_artista</text>
+    <text x="154" y="118" fill="#8ca0b3" font-family="monospace" font-size="8">titulo, anio</text>
+
+    <!-- Línea conector -->
+    <line x1="134" y1="95" x2="146" y2="95" stroke="#a783ff" stroke-width="2" stroke-dasharray="2 2"/>
+
+    <!-- Tabla intermedia: PISTAS -->
+    <rect x="16" y="148" width="248" height="74" rx="6" fill="#181135" stroke="#5c8dff" stroke-opacity=".3"/>
+    <rect x="16" y="148" width="248" height="20" rx="6" fill="#152648"/>
+    <text x="24" y="162" fill="#5c8dff" font-family="monospace" font-size="9" font-weight="700">TBL_PISTAS (TRACKS)</text>
+    <text x="24" y="180" fill="#5ce1e6" font-family="monospace" font-size="8">PK id_pista | FK id_album | duracion_sec | url_stream</text>
+    <text x="24" y="196" fill="#8ca0b3" font-family="monospace" font-size="8">FK id_artista (Colaboraciones N:M vía TBL_ARTISTA_PISTA)</text>
+    <text x="24" y="210" fill="#8ca0b3" font-family="monospace" font-size="8">reproducciones_count, bitrate_kbps, fecha_subida</text>
+
+    <!-- Tabla: PLAYLISTS & ITEMS -->
+    <rect x="16" y="234" width="248" height="66" rx="6" fill="#181135" stroke="#a783ff" stroke-opacity=".3"/>
+    <rect x="16" y="234" width="248" height="20" rx="6" fill="#24184c"/>
+    <text x="24" y="248" fill="#a783ff" font-family="monospace" font-size="9" font-weight="700">TBL_PLAYLIST_PISTAS (JOIN N:M)</text>
+    <text x="24" y="268" fill="#5ce1e6" font-family="monospace" font-size="8">PK (id_playlist, id_pista) | orden_posicion</text>
+    <text x="24" y="284" fill="#8ca0b3" font-family="monospace" font-size="8">Integridad referencial en cascada y consultas indexadas</text>
+  </g>
+</svg>

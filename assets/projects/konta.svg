@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+  <defs>
+    <linearGradient id="bg-konta" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0e2838"/>
+      <stop offset="1" stop-color="#06121d"/>
+    </linearGradient>
+    <linearGradient id="grad-bars" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#5ce1e6" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#5ce1e6" stop-opacity=".2"/>
+    </linearGradient>
+    <filter id="shadow-konta">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <!-- Shell principal -->
+  <rect x="64" y="44" width="592" height="420" rx="24" fill="url(#bg-konta)" stroke="#5ce1e6" stroke-opacity=".35" filter="url(#shadow-konta)"/>
+  
+  <!-- Barra superior -->
+  <rect x="64" y="44" width="592" height="54" rx="24" fill="#0c1f2e"/>
+  <circle cx="98" cy="71" r="6" fill="#5ce1e6"/>
+  <circle cx="118" cy="71" r="6" fill="#5c8dff"/>
+  <circle cx="138" cy="71" r="6" fill="#a783ff"/>
+  <text x="170" y="75" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="11" letter-spacing="1">KONTA // GESTIÓN CONTABLE Y FINANCIERA</text>
+  <rect x="520" y="60" width="112" height="22" rx="6" fill="#5ce1e6" opacity=".12"/>
+  <text x="576" y="75" text-anchor="middle" fill="#5ce1e6" font-family="monospace" font-size="9">BALANCE EN LÍNEA</text>
+
+  <!-- Tarjetas KPI superiores -->
+  <g transform="translate(90, 116)">
+    <!-- KPI 1: Ingresos -->
+    <rect x="0" y="0" width="160" height="74" rx="12" fill="#081724" stroke="#5ce1e6" stroke-opacity=".2"/>
+    <text x="16" y="24" fill="#8ca0b3" font-family="'Segoe UI', sans-serif" font-size="10">INGRESOS DEL PERÍODO</text>
+    <text x="16" y="48" fill="#f2f7fc" font-family="'DM Mono', monospace" font-size="18" font-weight="700">+$ 1.482.900</text>
+    <text x="16" y="64" fill="#5ce1e6" font-family="monospace" font-size="9">↑ +18.4% vs mes ant.</text>
+
+    <!-- KPI 2: Egresos / Costos -->
+    <rect x="180" y="0" width="160" height="74" rx="12" fill="#081724" stroke="#5c8dff" stroke-opacity=".2"/>
+    <text x="196" y="24" fill="#8ca0b3" font-family="'Segoe UI', sans-serif" font-size="10">EGRESOS / OPERACIÓN</text>
+    <text x="196" y="48" fill="#f2f7fc" font-family="'DM Mono', monospace" font-size="18" font-weight="700">-$ 845.200</text>
+    <text x="196" y="64" fill="#5c8dff" font-family="monospace" font-size="9">↓ Dentro de presupuesto</text>
+
+    <!-- KPI 3: Saldo Neto -->
+    <rect x="360" y="0" width="180" height="74" rx="12" fill="#081724" stroke="#5ce1e6" stroke-opacity=".4"/>
+    <text x="376" y="24" fill="#5ce1e6" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600">SALDO OPERATIVO NETO</text>
+    <text x="376" y="48" fill="#5ce1e6" font-family="'DM Mono', monospace" font-size="18" font-weight="700">$ 637.700</text>
+    <text x="376" y="64" fill="#8ca0b3" font-family="monospace" font-size="9">Margen positivo 43%</text>
+  </g>
+
+  <!-- Panel Central Gráfico de Balances -->
+  <g transform="translate(90, 206)">
+    <rect x="0" y="0" width="310" height="226" rx="14" fill="#081724" stroke="#5ce1e6" stroke-opacity=".15"/>
+    <text x="20" y="28" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Evolución de Balances y Cash Flow</text>
+    <text x="20" y="44" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">Conciliación mensual automatizada</text>
+    
+    <!-- Líneas de cuadrícula -->
+    <line x1="20" y1="80" x2="290" y2="80" stroke="#162e42" stroke-dasharray="3 3"/>
+    <line x1="20" y1="120" x2="290" y2="120" stroke="#162e42" stroke-dasharray="3 3"/>
+    <line x1="20" y1="160" x2="290" y2="160" stroke="#162e42" stroke-dasharray="3 3"/>
+    <line x1="20" y1="200" x2="290" y2="200" stroke="#162e42"/>
+
+    <!-- Barras de transacciones -->
+    <rect x="36" y="110" width="22" height="90" rx="4" fill="url(#grad-bars)"/>
+    <rect x="76" y="85" width="22" height="115" rx="4" fill="url(#grad-bars)"/>
+    <rect x="116" y="130" width="22" height="70" rx="4" fill="url(#grad-bars)"/>
+    <rect x="156" y="70" width="22" height="130" rx="4" fill="url(#grad-bars)"/>
+    <rect x="196" y="95" width="22" height="105" rx="4" fill="url(#grad-bars)"/>
+    <rect x="236" y="60" width="22" height="140" rx="4" fill="url(#grad-bars)"/>
+
+    <!-- Curva de tendencia -->
+    <path d="M47 110 Q 87 65 127 120 T 207 80 T 247 50" fill="none" stroke="#5c8dff" stroke-width="3"/>
+    <circle cx="247" cy="50" r="4" fill="#5ce1e6"/>
+  </g>
+
+  <!-- Panel Lateral: Libro Diario / Transacciones Recientes -->
+  <g transform="translate(420, 206)">
+    <rect x="0" y="0" width="210" height="226" rx="14" fill="#081724" stroke="#5ce1e6" stroke-opacity=".15"/>
+    <text x="18" y="28" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Últimos Asientos</text>
+    <text x="18" y="44" fill="#8ca0b3" font-family="'DM Mono', monospace" font-size="9">Libro Diario Inmutable</text>
+
+    <!-- Fila 1 -->
+    <rect x="14" y="58" width="182" height="36" rx="6" fill="#0e2333"/>
+    <text x="24" y="74" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Factura Venta #1048</text>
+    <text x="24" y="86" fill="#5ce1e6" font-family="monospace" font-size="9">Activo · Cobro</text>
+    <text x="184" y="80" text-anchor="end" fill="#5ce1e6" font-family="monospace" font-size="10" font-weight="600">+$240.000</text>
+
+    <!-- Fila 2 -->
+    <rect x="14" y="100" width="182" height="36" rx="6" fill="#0e2333"/>
+    <text x="24" y="116" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Pago Proveedores</text>
+    <text x="24" y="128" fill="#8ca0b3" font-family="monospace" font-size="9">Pasivo · Banco</text>
+    <text x="184" y="122" text-anchor="end" fill="#f4b85c" font-family="monospace" font-size="10" font-weight="600">-$98.500</text>
+
+    <!-- Fila 3 -->
+    <rect x="14" y="142" width="182" height="36" rx="6" fill="#0e2333"/>
+    <text x="24" y="158" fill="#f2f7fc" font-family="'Segoe UI', sans-serif" font-size="10">Servicios Cloud</text>
+    <text x="24" y="170" fill="#8ca0b3" font-family="monospace" font-size="9">Gasto Operativo</text>
+    <text x="184" y="164" text-anchor="end" fill="#f4b85c" font-family="monospace" font-size="10" font-weight="600">-$42.100</text>
+
+    <!-- Botón exportar/auditar -->
+    <rect x="14" y="188" width="182" height="24" rx="6" fill="#5ce1e6" opacity=".15" stroke="#5ce1e6" stroke-opacity=".4"/>
+    <text x="105" y="204" text-anchor="middle" fill="#5ce1e6" font-family="monospace" font-size="9" font-weight="600">DESCARGAR BALANCE PDF</text>
+  </g>
+</svg>
